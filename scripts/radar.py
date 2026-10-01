@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "jobs.json"
 
-MAX_COMPETITION = 25
-PREFERRED_COMPETITION = 10
+MAX_COMPETITION = 15
+PREFERRED_COMPETITION = 5
 
 CATEGORIES = {
     "Excel e planilhas": {
@@ -82,6 +82,15 @@ def classify_job(title, desc, source):
     blob = f"{title} {desc}".lower()
 
     if any(term in title_l for term in BLOCKED_TITLE_TERMS):
+        return None, 0, []
+
+    # Evita trabalhos que exijam domínio de inglês.
+    english_required = [
+        "conteúdo em inglês", "texto em inglês", "textos em inglês",
+        "domínio de inglês", "inglês fluente", "english fluent",
+        "fluent english", "native english", "english required"
+    ]
+    if any(term in blob for term in english_required):
         return None, 0, []
 
     best_category, best_score, best_hits = None, 0, []
@@ -218,38 +227,50 @@ def scrape_workana(out):
             soup=BeautifulSoup(fetch_text(page), "html.parser")
         except Exception:
             continue
+
         for a in soup.find_all("a", href=True):
             href=a.get("href","")
             if "/job/" not in href:
                 continue
             url=urllib.parse.urljoin("https://www.workana.com", href)
-            if url in seen: continue
-            seen.add(url)
-            title=clean(a.get_text(" ", strip=True))
-            if len(title)<5: continue
-            if not classify_job(title, "", "Workana")[0]:
+            if url in seen:
                 continue
-            candidates.append((title,url))
-            if len(candidates)>=20: break
-        if len(candidates)>=20: break
+            title=clean(a.get_text(" ", strip=True))
+            if len(title)<5:
+                continue
 
-    for title,url in candidates:
+            node=a
+            block=""
+            for _ in range(7):
+                if node is None:
+                    break
+                txt=clean(node.get_text(" ",strip=True))
+                if len(txt)>120 and ("proposta" in txt.lower() or "freelancer" in txt.lower()):
+                    block=txt
+                    break
+                node=node.parent
+
+            if not classify_job(title, block, "Workana")[0]:
+                continue
+            seen.add(url)
+            candidates.append((title,url,block))
+            if len(candidates)>=25:
+                break
+
+    for title,url,list_block in candidates:
         try:
             detail=BeautifulSoup(fetch_text(url), "html.parser")
             text=clean(detail.get_text(" ", strip=True))
-            if "Projeto fechado" in text or "Fechado" in text:
+            if "Projeto fechado" in text or "Status Fechado" in text:
                 continue
             proposals=parse_int(text,[r"(\d+)\s+Propostas"])
             interested=parse_int(text,[r"(\d+)\s+Freelancers interessados"])
             comp=proposals if proposals is not None else interested
             if comp is not None and comp > MAX_COMPETITION:
                 continue
-            desc=""
             h=detail.find("h1")
-            if h:
-                node=h.parent
-                desc=clean(node.get_text(" ", strip=True))[:1500] if node else text[:1500]
-            add_job(out, source="Workana", title=title, desc=desc or text[:1500], url=url,
+            detail_title=clean(h.get_text(" ",strip=True)) if h else title
+            add_job(out, source="Workana", title=detail_title, desc=text[:1500], url=url,
                     competition=comp, competition_label="propostas", status="Aberto")
         except Exception:
             continue
@@ -258,8 +279,10 @@ def scrape_freelancer_br(out):
     pages=[
         "https://freelancer.com.br/projetos/s/excel",
         "https://freelancer.com.br/projetos/s/microsoft-excel",
+        "https://freelancer.com.br/projetos/s/planilhas-em-excel",
         "https://freelancer.com.br/projetos/s/automa%C3%A7%C3%A3o",
         "https://freelancer.com.br/projetos/s/automa%C3%A7%C3%A3o-de-processos",
+        "https://freelancer.com.br/projetos/s/arquivos",
     ]
     seen=set()
     for page in pages:
@@ -267,34 +290,54 @@ def scrape_freelancer_br(out):
             soup=BeautifulSoup(fetch_text(page), "html.parser")
         except Exception:
             continue
-        text=clean(soup.get_text("\n", strip=True))
-        # captura blocos textuais iniciando por "Ativo"
-        blocks=re.split(r"(?=Ativo\s)", text)
-        for block in blocks:
-            if "Status Aberto" not in block and "Status Seleção" not in block and "Status Selecao" not in block:
+
+        for a in soup.find_all("a", href=True):
+            href=a.get("href","")
+            title=clean(a.get_text(" ", strip=True))
+            if not title or len(title)<6:
                 continue
+            if "/projetos/" not in href or "/projetos/s/" in href:
+                continue
+
+            url=urllib.parse.urljoin("https://freelancer.com.br", href)
+            if url in seen:
+                continue
+
+            node=a
+            block=""
+            for _ in range(7):
+                if node is None:
+                    break
+                txt=clean(node.get_text(" ",strip=True))
+                if "Status" in txt and ("Orçamento" in txt or "Orcamento" in txt):
+                    block=txt
+                    break
+                node=node.parent
+            if not block:
+                continue
+
+            status_match=re.search(r"Status\s+(Aberto|Seleção|Selecao|Fechado|Concluído|Concluido)", block, re.I)
+            status=status_match.group(1) if status_match else None
+            if status and status.lower() not in {"aberto","seleção","selecao"}:
+                continue
+
             interested=parse_int(block,[r"(\d+)\s+interessados"])
             if interested is not None and interested > MAX_COMPETITION:
                 continue
-            # tenta casar o título do projeto com um link da página
-            title_match=re.search(r"Projeto\s+(.+?)\s+Categoria", block)
-            if not title_match:
+
+            category,_,_=classify_job(title,block,"Freelancer.com.br")
+            if not category:
                 continue
-            title=clean(title_match.group(1))
-            if not classify_job(title, block, "Freelancer.com.br")[0]:
-                continue
-            candidate=None
-            for a in soup.find_all("a", href=True):
-                if clean(a.get_text(" ",strip=True))==title:
-                    candidate=urllib.parse.urljoin("https://freelancer.com.br",a["href"])
-                    break
-            if not candidate or candidate in seen:
-                continue
-            seen.add(candidate)
-            budget_match=re.search(r"Orçamento\s+(.+?)\s+Localização", block)
+
+            seen.add(url)
+            budget_match=re.search(r"Orçamento\s+(.+?)\s+Localização", block, re.I)
             budget=budget_match.group(1) if budget_match else None
-            add_job(out, source="Freelancer.com.br", title=title, desc=block[:1400], url=candidate,
-                    competition=interested, competition_label="interessados", budget=budget, status="Aberto")
+            date_match=re.search(r"(\d{1,2}:\d{2}\s+(?:Hoje|\d{1,2}\s+\w+\s+\d{4}))", block, re.I)
+            date=date_match.group(1) if date_match else None
+
+            add_job(out, source="Freelancer.com.br", title=title, desc=block[:1400], url=url,
+                    date=date, competition=interested, competition_label="interessados",
+                    budget=budget, status=status or "Aberto")
 
 def scrape_getninjas(out):
     pages=[

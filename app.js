@@ -72,7 +72,7 @@ function render(){
   const source=els.source.value;
   const min=Number(els.minScore.value||0);
   const filtered=state.jobs.filter(j=>{
-    const blob=`${j.title} ${j.description} ${(j.tags||[]).join(' ')}`.toLowerCase();
+    const blob=`${j.title} ${j.description} ${j.category||''} ${(j.tags||[]).join(' ')}`.toLowerCase();
     return (!q||blob.includes(q))&&(!source||j.source===source)&&(Number(j.score||0)>=min);
   });
   els.jobs.innerHTML='';
@@ -81,7 +81,7 @@ function render(){
     const frag=els.tpl.content.cloneNode(true);
     const article=frag.querySelector('.job');
     article.querySelector('.score').textContent=`${scoreClass(j.score)} SCORE ${j.score}`;
-    article.querySelector('.source').textContent=j.source||'Fonte';
+    article.querySelector('.source').textContent=(j.category ? j.category+' • ' : '')+(j.source||'Fonte');
     article.querySelector('h2').textContent=j.title||'Sem título';
     article.querySelector('.description').textContent=j.description||'Sem descrição disponível.';
     const tags=article.querySelector('.tags');

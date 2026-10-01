@@ -43,8 +43,8 @@ CATEGORIES = {
 BLOCKED_TITLE_TERMS = [
     "senior", "sr.", "lead ", "principal", "manager", "director", "head of",
     "engineer", "developer", "software engineer", "data scientist", "scientist",
-    "architect", "analyst", "consultant", "accountant", "security",
-    "marketing", "sales", "recruiter", "product manager", "product owner",
+    "architect", "analyst", "consultant", "accountant", "security", "specialist",
+    "administrator", "marketing", "sales", "recruiter", "product manager", "product owner",
     "customer success", "devops", "full stack", "frontend", "backend",
     "machine learning", "operations partner", "people partner", "talent lead",
     "generalist", "chief ", "vp ", "vice president",
@@ -52,7 +52,7 @@ BLOCKED_TITLE_TERMS = [
 
 PREFERRED_TERMS = [
     "freelance", "freelancer", "contract", "project", "one-time", "one time",
-    "short term", "short-term", "part-time", "temporary", "remote",
+    "short term", "short-term", "part-time", "temporary", "fixed-term", "fixed term",
 ]
 
 def get_json(url):
@@ -89,6 +89,10 @@ def classify_job(title, desc, tags):
     if any(term in title_l for term in BLOCKED_TITLE_TERMS):
         return None, 0, []
 
+    engagement_hits = [p for p in PREFERRED_TERMS if p in blob]
+    if not engagement_hits:
+        return None, 0, []
+
     best_category = None
     best_score = 0
     best_hits = []
@@ -102,7 +106,7 @@ def classify_job(title, desc, tags):
             continue
 
         desc_hits = [kw for kw in rule["keywords"] if kw in blob and kw not in title_hits]
-        pref_hits = [p for p in PREFERRED_TERMS if p in blob]
+        pref_hits = engagement_hits
 
         score = rule["base"]
         score += min(35, 14 * len(title_hits))

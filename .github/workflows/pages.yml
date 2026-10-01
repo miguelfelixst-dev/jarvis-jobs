@@ -1,4 +1,5 @@
 name: Publicar painel
+# Trigger de publicação após habilitar GitHub Pages
 # Pages habilitado
 
 on:

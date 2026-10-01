@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01T02:48:12.490295+00:00",
-  "count": 1,
+  "updated_at": "2026-10-01T09:01:26.023680+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,25 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Cadastro e organização de produtos - Shopee",
-      "description": "Estou procurando um(a) freelancer com experiência comprovada em Shopee para me ajudar a organizar e cadastrar produtos na minha loja. No momento, preciso de alguém que faça o básico bem feito, com atenção e responsabilidade. Atividades principais: - Cadastro de produtos na Shopee. - Criação de títulos otimizados para busca. - Descrição clara e objetiva dos produtos. - Ajuste de categorias, variações e preços. - Organização geral da loja. Requisitos obrigatórios: - Já ter trabalhado com Shopee (enviar prints ou exemplos). - Saber escrever bem (português correto). - Ser organizado(a) e cumprir prazos. - Ter atenção a detalhes. Diferencial: - Conhecimento básico em SEO para Shopee. - Experiência com produtos físicos. Se você já fez lojas venderem ou sabe estruturar anúncios que convertem, me chame com sua proposta e portfólio. Atividades do cliente nesse projeto: Tem dúvidas? Faça uma pergu",
-      "url": "https://www.99freelas.com.br/project/cadastro-e-organizacao-de-produtos-shopee-788489?fs=t",
-      "date": null,
-      "tags": [
-        "cadastro",
-        "entrada de dados"
-      ],
-      "score": 84,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 4,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 4 Interessados: 18 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (4) Todas Aceita Rejeitadas Aguardando avaliação Myleni L. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

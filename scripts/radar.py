@@ -33,7 +33,8 @@ def get_json(url):
 
 def clean(value):
     text = "" if value is None else str(value)
-    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    text = html.unescape(text)
+    text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 def normalize_date(value):
@@ -123,11 +124,12 @@ def collect():
         unique.append(job)
 
     unique.sort(key=lambda x: (int(x.get("score", 0)), str(x.get("date") or "")), reverse=True)
+    capped = unique[:250]
     return {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "count": len(unique),
+        "count": len(capped),
         "errors": errors,
-        "jobs": unique[:250],
+        "jobs": capped,
     }
 
 def main():

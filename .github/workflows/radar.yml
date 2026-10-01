@@ -2,6 +2,11 @@ name: Atualizar radar
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/radar.py"
+      - ".github/workflows/radar.yml"
   schedule:
     - cron: "17 * * * *"
 
@@ -20,8 +25,24 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validar sintaxe
+        run: python -m py_compile scripts/radar.py
+
       - name: Rodar radar
         run: python scripts/radar.py
+
+      - name: Validar saída
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/jobs.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          assert isinstance(data.get("jobs"), list)
+          assert isinstance(data.get("errors"), list)
+          assert data.get("updated_at")
+          print(f"OK: {len(data['jobs'])} oportunidades; erros: {len(data['errors'])}")
+          PY
 
       - name: Salvar atualização
         run: |

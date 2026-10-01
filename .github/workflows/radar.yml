@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "scripts/radar.py"
+      - "tests/test_radar.py"
       - ".github/workflows/radar.yml"
   schedule:
     - cron: "17 * * * *"
@@ -26,7 +27,10 @@ jobs:
           python-version: "3.12"
 
       - name: Validar sintaxe
-        run: python -m py_compile scripts/radar.py
+        run: python -m py_compile scripts/radar.py tests/test_radar.py
+
+      - name: Rodar testes
+        run: python -m unittest tests/test_radar.py -v
 
       - name: Rodar radar
         run: python scripts/radar.py
@@ -36,12 +40,12 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          p = Path("data/jobs.json")
-          data = json.loads(p.read_text(encoding="utf-8"))
+          data = json.loads(Path("data/jobs.json").read_text(encoding="utf-8"))
           assert isinstance(data.get("jobs"), list)
           assert isinstance(data.get("errors"), list)
           assert data.get("updated_at")
-          print(f"OK: {len(data['jobs'])} oportunidades; erros: {len(data['errors'])}")
+          assert data.get("count") == len(data.get("jobs"))
+          print(f"OK: {len(data['jobs'])} oportunidades; erros de fonte: {len(data['errors'])}")
           PY
 
       - name: Salvar atualização

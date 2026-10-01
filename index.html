@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JARVIS Jobs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>JARVIS Jobs</h1>
+      <p>Radar automático de oportunidades digitais</p>
+    </div>
+    <div class="status">
+      <span id="statusDot"></span>
+      <span id="statusText">Carregando...</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary">
+      <div class="card"><strong id="totalJobs">0</strong><span>oportunidades</span></div>
+      <div class="card"><strong id="hotJobs">0</strong><span>prioridade alta</span></div>
+      <div class="card"><strong id="lastUpdate">—</strong><span>última atualização</span></div>
+    </section>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="Buscar por Excel, PDF, automação...">
+      <select id="source">
+        <option value="">Todas as fontes</option>
+      </select>
+      <select id="minScore">
+        <option value="0">Qualquer score</option>
+        <option value="40">Score 40+</option>
+        <option value="60">Score 60+</option>
+        <option value="80">Score 80+</option>
+      </select>
+    </section>
+
+    <section id="jobs" class="jobs"></section>
+    <p id="empty" class="empty" hidden>Nenhuma oportunidade encontrada com esses filtros.</p>
+  </main>
+
+  <template id="jobTemplate">
+    <article class="job">
+      <div class="job-top">
+        <span class="score"></span>
+        <span class="source"></span>
+      </div>
+      <h2></h2>
+      <p class="description"></p>
+      <div class="tags"></div>
+      <div class="job-bottom">
+        <span class="date"></span>
+        <a target="_blank" rel="noopener">Ver oportunidade</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

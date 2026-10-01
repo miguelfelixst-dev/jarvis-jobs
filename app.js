@@ -8,13 +8,65 @@ const els={
   status:document.querySelector('#statusText')
 };
 
-function esc(s=''){return String(s)}
+const CACHE_KEY='jarvis_jobs_translation_cache_v1';
+let translationCache={};
+try{translationCache=JSON.parse(localStorage.getItem(CACHE_KEY)||'{}')}catch{translationCache={}}
+
 function fmtDate(s){
   if(!s)return 'Data não informada';
   const d=new Date(s); if(Number.isNaN(d.getTime())) return s;
   return d.toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'});
 }
 function scoreClass(score){return score>=80?'🔥':score>=60?'🟢':score>=40?'🟡':'⚪'}
+function looksPortuguese(text=''){
+  const t=text.toLowerCase();
+  return /\b(para|com|uma|você|trabalho|dados|empresa|experiência|remoto|contrato|vaga|equipe|projeto)\b/.test(t);
+}
+function cacheSave(){
+  try{
+    const keys=Object.keys(translationCache);
+    if(keys.length>900){
+      const trimmed={};
+      keys.slice(-700).forEach(k=>trimmed[k]=translationCache[k]);
+      translationCache=trimmed;
+    }
+    localStorage.setItem(CACHE_KEY,JSON.stringify(translationCache));
+  }catch{}
+}
+async function translateText(text){
+  if(!text||looksPortuguese(text))return text;
+  const key='pt:'+text;
+  if(translationCache[key])return translationCache[key];
+  const url='https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q='+encodeURIComponent(text);
+  const res=await fetch(url);
+  if(!res.ok)throw new Error('Falha na tradução');
+  const data=await res.json();
+  const translated=(data?.[0]||[]).map(x=>x?.[0]||'').join('').trim();
+  if(translated){
+    translationCache[key]=translated;
+    cacheSave();
+    return translated;
+  }
+  return text;
+}
+async function translateCard(article,j){
+  const titleEl=article.querySelector('h2');
+  const descEl=article.querySelector('.description');
+  const btn=article.querySelector('.translation-status');
+  try{
+    btn.textContent='Traduzindo...';
+    const [title,desc]=await Promise.all([
+      translateText(j.title||''),
+      translateText((j.description||'').slice(0,650))
+    ]);
+    titleEl.textContent=title||j.title||'Sem título';
+    descEl.textContent=desc||j.description||'Sem descrição disponível.';
+    btn.textContent='Português automático';
+  }catch{
+    btn.textContent='Original em inglês';
+    btn.title='A tradução automática não respondeu agora. O texto original foi mantido.';
+  }
+}
 function render(){
   const q=els.search.value.toLowerCase().trim();
   const source=els.source.value;
@@ -26,18 +78,21 @@ function render(){
   els.jobs.innerHTML='';
   els.empty.hidden=filtered.length>0;
   for(const j of filtered){
-    const node=els.tpl.content.cloneNode(true);
-    node.querySelector('.score').textContent=`${scoreClass(j.score)} SCORE ${j.score}`;
-    node.querySelector('.source').textContent=j.source||'Fonte';
-    node.querySelector('h2').textContent=j.title||'Sem título';
-    node.querySelector('.description').textContent=j.description||'Sem descrição disponível.';
-    const tags=node.querySelector('.tags');
+    const frag=els.tpl.content.cloneNode(true);
+    const article=frag.querySelector('.job');
+    article.querySelector('.score').textContent=`${scoreClass(j.score)} SCORE ${j.score}`;
+    article.querySelector('.source').textContent=j.source||'Fonte';
+    article.querySelector('h2').textContent=j.title||'Sem título';
+    article.querySelector('.description').textContent=j.description||'Sem descrição disponível.';
+    const tags=article.querySelector('.tags');
     for(const t of (j.tags||[]).slice(0,8)){
       const span=document.createElement('span'); span.className='tag'; span.textContent=t; tags.appendChild(span);
     }
-    node.querySelector('.date').textContent=fmtDate(j.date);
-    const a=node.querySelector('a'); a.href=j.url; 
-    els.jobs.appendChild(node);
+    article.querySelector('.date').textContent=fmtDate(j.date);
+    const a=article.querySelector('a'); a.href=j.url;
+    a.textContent='Abrir oportunidade';
+    els.jobs.appendChild(frag);
+    translateCard(article,j);
   }
 }
 async function init(){
@@ -56,7 +111,7 @@ async function init(){
     render();
   }catch(e){
     els.dot.style.background='#ef4444'; els.status.textContent='Erro ao carregar radar';
-    els.empty.hidden=false; els.empty.textContent='Ainda não há dados. Execute o workflow do radar no GitHub Actions.';
+    els.empty.hidden=false; els.empty.textContent='Ainda não há dados disponíveis.';
   }
 }
 for(const e of [els.search,els.source,els.minScore])e.addEventListener('input',render);

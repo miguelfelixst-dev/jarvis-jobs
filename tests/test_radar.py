@@ -10,6 +10,7 @@ SPEC.loader.exec_module(radar)
 class RadarTests(unittest.TestCase):
     def test_clean_html(self):
         self.assertEqual(radar.clean("<b>Excel</b>   automation"), "Excel automation")
+        self.assertEqual(radar.clean("&lt;b&gt;PDF&lt;/b&gt; data"), "PDF data")
 
     def test_epoch_date_becomes_text(self):
         value = radar.normalize_date(1700000000)

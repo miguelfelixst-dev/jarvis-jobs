@@ -5,26 +5,59 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "jobs.json"
 
-KEYWORDS = {
-    "browser extension": 35, "chrome extension": 35, "firefox extension": 35,
-    "automation": 28, "automação": 28, "web scraping": 28, "scraping": 25,
-    "data extraction": 25, "extração de dados": 25, "excel": 22,
-    "spreadsheet": 22, "google sheets": 22, "csv": 18, "pdf": 18,
-    "data entry": 16, "data cleaning": 18, "python": 16, "javascript": 14,
-    "file conversion": 18, "convert": 10, "small script": 20, "script": 10,
-    "api": 12, "remote": 8, "freelance": 14, "contract": 10,
-    "virtual assistant": 12, "research": 10, "data": 8
+# Só entram oportunidades compatíveis com os serviços que o JARVIS Jobs foi criado para executar.
+CATEGORIES = {
+    "Excel e planilhas": {
+        "keywords": ["excel", "spreadsheet", "google sheets", "planilha", "csv"],
+        "base": 35,
+    },
+    "Conversão de arquivos": {
+        "keywords": ["file conversion", "convert file", "convert files", "pdf to", "word to pdf",
+                     "pdf to word", "pdf to excel", "image to text", "document conversion"],
+        "base": 38,
+    },
+    "Automações simples": {
+        "keywords": ["automation", "automate", "workflow automation", "small script",
+                     "simple script", "repetitive task", "browser automation"],
+        "base": 42,
+    },
+    "Extensões de navegador": {
+        "keywords": ["browser extension", "chrome extension", "firefox extension",
+                     "opera extension", "userscript", "tampermonkey"],
+        "base": 50,
+    },
+    "Extração e organização de dados": {
+        "keywords": ["data entry", "data cleaning", "data extraction", "web scraping", "scraping",
+                     "data collection", "data formatting", "data整理", "organize data",
+                     "data organization", "copy paste", "copy-paste", "lead list", "research list"],
+        "base": 40,
+    },
+    "Produtos digitais": {
+        "keywords": ["digital product", "template creation", "notion template", "spreadsheet template",
+                     "ebook formatting", "printable", "digital download"],
+        "base": 32,
+    },
 }
-NEGATIVE = {
-    "senior": -8, "lead engineer": -12, "principal": -15, "manager": -8,
-    "director": -15, "staff engineer": -12
-}
+
+# Cargos tradicionais/complexos que não são o foco do projeto.
+BLOCKED_TITLE_TERMS = [
+    "senior", "sr.", "lead ", "principal", "manager", "director", "head of",
+    "engineer", "developer", "software engineer", "data scientist", "scientist",
+    "architect", "specialist", "analyst", "consultant", "accountant", "security",
+    "marketing", "sales", "recruiter", "product manager", "customer success",
+    "devops", "full stack", "frontend", "backend", "machine learning",
+]
+
+PREFERRED_TERMS = [
+    "freelance", "freelancer", "contract", "project", "one-time", "one time",
+    "short term", "short-term", "part-time", "temporary", "remote",
+]
 
 def get_json(url):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "JarvisJobs/1.2 (+https://github.com/miguelfelixst-dev/jarvis-jobs)",
+            "User-Agent": "JarvisJobs/1.3 (+https://github.com/miguelfelixst-dev/jarvis-jobs)",
             "Accept": "application/json",
         },
     )
@@ -47,26 +80,55 @@ def normalize_date(value):
             return str(value)
     return str(value)
 
-def score_job(title, desc, tags):
+def classify_job(title, desc, tags):
+    title_l = title.lower()
     blob = f"{title} {desc} {' '.join(tags)}".lower()
-    score, hits = 0, []
-    for key, points in KEYWORDS.items():
-        if key in blob:
-            score += points
-            hits.append(key)
-    for key, points in NEGATIVE.items():
-        if key in blob:
-            score += points
-    return max(0, min(100, score)), hits
+
+    # Bloqueia cargos tradicionais se o título indicar uma função profissional ampla.
+    if any(term in title_l for term in BLOCKED_TITLE_TERMS):
+        return None, 0, []
+
+    best_category = None
+    best_score = 0
+    best_hits = []
+
+    for category, rule in CATEGORIES.items():
+        hits = [kw for kw in rule["keywords"] if kw in blob]
+        if not hits:
+            continue
+
+        score = rule["base"] + min(35, 9 * len(hits))
+
+        # Dá preferência para tarefas claramente temporárias/freelance.
+        pref_hits = [p for p in PREFERRED_TERMS if p in blob]
+        score += min(20, 5 * len(pref_hits))
+
+        # Se o título em si contém uma palavra do serviço, é muito mais relevante.
+        title_hits = [kw for kw in hits if kw in title_l]
+        score += min(20, 10 * len(title_hits))
+
+        score = max(0, min(100, score))
+        if score > best_score:
+            best_category = category
+            best_score = score
+            best_hits = list(dict.fromkeys(hits + pref_hits))
+
+    # Só aceita se houver aderência razoável ao tipo de serviço que queremos.
+    if not best_category or best_score < 45:
+        return None, 0, []
+
+    return best_category, best_score, best_hits
 
 def add_job(out, *, source, title, desc, url, date=None, tags=None):
     tags = [clean(x) for x in (tags or []) if clean(x)]
     title, desc, url = clean(title), clean(desc), clean(url)
     if not title or not url:
         return
-    score, hits = score_job(title, desc, tags)
-    if score < 10:
+
+    category, score, hits = classify_job(title, desc, tags)
+    if not category:
         return
+
     out.append({
         "source": source,
         "title": title[:180],
@@ -75,6 +137,7 @@ def add_job(out, *, source, title, desc, url, date=None, tags=None):
         "date": normalize_date(date),
         "tags": list(dict.fromkeys(tags + hits))[:12],
         "score": score,
+        "category": category,
     })
 
 def remoteok(out):
@@ -82,16 +145,20 @@ def remoteok(out):
     rows = data[1:] if isinstance(data, list) else []
     for j in rows:
         if isinstance(j, dict):
-            add_job(out, source="Remote OK", title=j.get("position", ""),
-                    desc=j.get("description", ""), url=j.get("url", ""),
-                    date=j.get("date") or j.get("epoch"), tags=j.get("tags", []))
+            add_job(
+                out, source="Remote OK", title=j.get("position", ""),
+                desc=j.get("description", ""), url=j.get("url", ""),
+                date=j.get("date") or j.get("epoch"), tags=j.get("tags", [])
+            )
 
 def arbeitnow(out):
     data = get_json("https://www.arbeitnow.com/api/job-board-api")
     for j in data.get("data", []):
-        add_job(out, source="Arbeitnow", title=j.get("title", ""),
-                desc=j.get("description", ""), url=j.get("url", ""),
-                date=j.get("created_at"), tags=j.get("tags", []))
+        add_job(
+            out, source="Arbeitnow", title=j.get("title", ""),
+            desc=j.get("description", ""), url=j.get("url", ""),
+            date=j.get("created_at"), tags=j.get("tags", [])
+        )
 
 def jobicy(out):
     data = get_json("https://jobicy.com/api/v2/remote-jobs?count=50")
@@ -103,9 +170,11 @@ def jobicy(out):
                 tags.extend(value)
             elif value:
                 tags.append(value)
-        add_job(out, source="Jobicy", title=j.get("jobTitle", ""),
-                desc=j.get("jobDescription", ""), url=j.get("url", ""),
-                date=j.get("pubDate"), tags=tags)
+        add_job(
+            out, source="Jobicy", title=j.get("jobTitle", ""),
+            desc=j.get("jobDescription", ""), url=j.get("url", ""),
+            date=j.get("pubDate"), tags=tags
+        )
 
 def collect():
     jobs, errors = [], []
@@ -136,7 +205,7 @@ def main():
     payload = collect()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Salvos {len(payload['jobs'])} trabalhos.")
+    print(f"Salvos {len(payload['jobs'])} trabalhos compatíveis com o JARVIS Jobs.")
     if payload["errors"]:
         print("Fontes com erro:", " | ".join(payload["errors"]))
 

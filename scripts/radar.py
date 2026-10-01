@@ -43,9 +43,11 @@ CATEGORIES = {
 BLOCKED_TITLE_TERMS = [
     "senior", "sr.", "lead ", "principal", "manager", "director", "head of",
     "engineer", "developer", "software engineer", "data scientist", "scientist",
-    "architect", "specialist", "analyst", "consultant", "accountant", "security",
-    "marketing", "sales", "recruiter", "product manager", "customer success",
-    "devops", "full stack", "frontend", "backend", "machine learning",
+    "architect", "analyst", "consultant", "accountant", "security",
+    "marketing", "sales", "recruiter", "product manager", "product owner",
+    "customer success", "devops", "full stack", "frontend", "backend",
+    "machine learning", "operations partner", "people partner", "talent lead",
+    "generalist", "chief ", "vp ", "vice president",
 ]
 
 PREFERRED_TERMS = [
@@ -84,7 +86,6 @@ def classify_job(title, desc, tags):
     title_l = title.lower()
     blob = f"{title} {desc} {' '.join(tags)}".lower()
 
-    # Bloqueia cargos tradicionais se o título indicar uma função profissional ampla.
     if any(term in title_l for term in BLOCKED_TITLE_TERMS):
         return None, 0, []
 
@@ -93,28 +94,33 @@ def classify_job(title, desc, tags):
     best_hits = []
 
     for category, rule in CATEGORIES.items():
-        hits = [kw for kw in rule["keywords"] if kw in blob]
-        if not hits:
+        # Regra principal: o serviço precisa estar explícito no TÍTULO.
+        # A descrição apenas ajuda a pontuar; ela não pode transformar um emprego
+        # genérico em oportunidade para o JARVIS.
+        title_hits = [kw for kw in rule["keywords"] if kw in title_l]
+        if not title_hits:
             continue
 
-        score = rule["base"] + min(35, 9 * len(hits))
-
-        # Dá preferência para tarefas claramente temporárias/freelance.
+        desc_hits = [kw for kw in rule["keywords"] if kw in blob and kw not in title_hits]
         pref_hits = [p for p in PREFERRED_TERMS if p in blob]
-        score += min(20, 5 * len(pref_hits))
 
-        # Se o título em si contém uma palavra do serviço, é muito mais relevante.
-        title_hits = [kw for kw in hits if kw in title_l]
-        score += min(20, 10 * len(title_hits))
+        score = rule["base"]
+        score += min(35, 14 * len(title_hits))
+        score += min(12, 4 * len(desc_hits))
+        score += min(15, 5 * len(pref_hits))
+
+        # Vagas declaradamente full-time perdem prioridade e só passam se
+        # o título for extremamente aderente ao serviço.
+        if "full-time" in blob or "full time" in blob:
+            score -= 15
 
         score = max(0, min(100, score))
         if score > best_score:
             best_category = category
             best_score = score
-            best_hits = list(dict.fromkeys(hits + pref_hits))
+            best_hits = list(dict.fromkeys(title_hits + desc_hits + pref_hits))
 
-    # Só aceita se houver aderência razoável ao tipo de serviço que queremos.
-    if not best_category or best_score < 45:
+    if not best_category or best_score < 50:
         return None, 0, []
 
     return best_category, best_score, best_hits

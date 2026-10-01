@@ -88,7 +88,11 @@ function render(){
     for(const t of (j.tags||[]).slice(0,8)){
       const span=document.createElement('span'); span.className='tag'; span.textContent=t; tags.appendChild(span);
     }
-    article.querySelector('.date').textContent=fmtDate(j.date);
+    const meta=j.meta||{};
+    const bits=[];
+    if(meta.competition!==null && meta.competition!==undefined) bits.push(meta.competition+' '+(meta.competition_label||'propostas'));
+    if(meta.budget) bits.push(meta.budget);
+    article.querySelector('.date').textContent=[fmtDate(j.date),...bits].join(' • ');
     const a=article.querySelector('a'); a.href=j.url;
     a.textContent='Abrir oportunidade';
     els.jobs.appendChild(frag);

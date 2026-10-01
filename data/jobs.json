@@ -1,52 +1,6 @@
 {
-  "updated_at": "2026-10-01T02:20:00.519050+00:00",
-  "count": 2,
+  "updated_at": "2026-10-01T02:20:31.259367+00:00",
+  "count": 0,
   "errors": [],
-  "jobs": [
-    {
-      "source": "Remote OK",
-      "title": "Data Entry Administrator",
-      "description": "About PulseMediaNL PulseMediaNL is a forward-thinking digital media company committed to delivering high-quality content, innovative marketing solutions, and exceptional customer experiences. We value accuracy, efficiency, collaboration, and continuous improvement. As our team grows, we are seeking a highly organized and detail-oriented Data Entry Administrator to support our daily operations by maintaining accurate and reliable data across multiple platforms. Position Overview The Data Entry Administrator is responsible for accurately entering, updating, verifying, and maintaining company data while ensuring the highest standards of quality ",
-      "url": "https://remoteOK.com/remote-jobs/remote-data-entry-administrator-pulsemedianl-1135903",
-      "date": "2026-08-02T01:50:08+00:00",
-      "tags": [
-        "data entry",
-        "infosec",
-        "education",
-        "customer support",
-        "dev",
-        "marketing",
-        "admin",
-        "microsoft",
-        "exec",
-        "content writing",
-        "ops",
-        "excel"
-      ],
-      "score": 64,
-      "category": "Extração e organização de dados"
-    },
-    {
-      "source": "Remote OK",
-      "title": "Digital Workplace & Automation Specialist",
-      "description": "About Dreem Health, by Sunrise Dreem Health is Americaâs leading digital sleep clinic. Powered by Sunriseâs technology, Dreem Health makes sleep care simple â replacing long waits and in-lab sleep studies with home-based testing, expert telehealth visits, and personalized treatment plans that are easy for patients to follow. Weâre fixing the broken sleep care journey and helping more people get the care they need â from home, on their schedule. Your Opportunity The Workplace Technology & AI Automation Specialist owns the digital backbone of the employee experience at Sunrise/Dreem Health: IT provisioning and support, user access man",
-      "url": "https://remoteOK.com/remote-jobs/remote-digital-workplace-automation-specialist-dreem-health-1136948",
-      "date": "2026-08-18T16:00:22+00:00",
-      "tags": [
-        "design",
-        "customer support",
-        "testing",
-        "exec",
-        "ops",
-        "marketing",
-        "sales",
-        "medical",
-        "digital nomad",
-        "automation",
-        "remote"
-      ],
-      "score": 61,
-      "category": "Automações simples"
-    }
-  ]
+  "jobs": []
 }

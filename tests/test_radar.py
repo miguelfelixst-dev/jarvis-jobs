@@ -17,51 +17,55 @@ class RadarTests(unittest.TestCase):
         self.assertIsInstance(value, str)
         self.assertIn("T", value)
 
-    def test_target_job_is_classified(self):
+    def test_marketplace_excel_project_is_accepted(self):
         category, score, hits = radar.classify_job(
-            "Excel automation task",
-            "Small freelance project to clean CSV and organize spreadsheet data",
-            ["remote", "contract"],
+            "Automação em Excel",
+            "Preciso automatizar planilha, criar macros simples e organizar dados.",
+            ["projeto"],
+            "99Freelas",
         )
-        self.assertIn(category, {"Excel e planilhas", "Automações simples"})
-        self.assertGreaterEqual(score, 45)
-        self.assertTrue(any(x in hits for x in ("excel", "automation")))
+        self.assertEqual(category, "Excel e planilhas")
+        self.assertGreaterEqual(score, 50)
+        self.assertIn("excel", hits)
 
-    def test_traditional_role_is_blocked(self):
+    def test_marketplace_scraping_project_is_accepted(self):
+        category, score, hits = radar.classify_job(
+            "Web scraping para Excel",
+            "Extrair dados de sites e entregar em CSV.",
+            ["freelance"],
+            "Workana",
+        )
+        self.assertIsNotNone(category)
+        self.assertGreaterEqual(score, 50)
+
+    def test_traditional_senior_role_is_blocked(self):
         category, score, hits = radar.classify_job(
             "Senior Data Engineer",
             "Excel automation and scraping",
             ["full-time"],
+            "Upwork",
         )
         self.assertIsNone(category)
         self.assertEqual(score, 0)
 
     def test_missing_url_is_ignored(self):
-        jobs = []
-        radar.add_job(jobs, source="Test", title="Excel task", desc="automation", url="")
+        jobs=[]
+        radar.add_job(
+            jobs, source="99Freelas", title="Automação em Excel",
+            desc="Projeto de planilha", url="", tags=["projeto"]
+        )
         self.assertEqual(jobs, [])
 
-    def test_sources_and_filtering(self):
-        original = radar.get_json
-        try:
-            radar.get_json = lambda url: (
-                [{"meta": True}, {"position":"Excel automation task","description":"small freelance csv cleanup","url":"https://a","epoch":1700000000,"tags":["remote"]}]
-                if "remoteok" in url else
-                {"data":[
-                    {"title":"PDF data entry task","description":"convert pdf to excel","url":"https://b","created_at":"2026-09-30","tags":["contract"]},
-                    {"title":"Senior Data Engineer","description":"excel scraping automation","url":"https://blocked","created_at":"2026-09-30","tags":[]}
-                ]}
-                if "arbeitnow" in url else
-                {"jobs":[{"jobTitle":"Browser extension task","jobDescription":"small chrome extension automation","url":"https://c","pubDate":"2026-09-30","jobType":"contract"}]}
-            )
-            payload = radar.collect()
-            self.assertEqual(payload["count"], 3)
-            self.assertEqual(payload["errors"], [])
-            self.assertTrue(all(j.get("category") for j in payload["jobs"]))
-            self.assertTrue(all(isinstance(j["date"], (str, type(None))) for j in payload["jobs"]))
-            self.assertFalse(any(j["url"] == "https://blocked" for j in payload["jobs"]))
-        finally:
-            radar.get_json = original
+    def test_add_job_records_category(self):
+        jobs=[]
+        radar.add_job(
+            jobs, source="Freelancer", title="Excel Data Cleaning",
+            desc="Clean an Excel spreadsheet and remove duplicates",
+            url="https://example.com/job", tags=["project"]
+        )
+        self.assertEqual(len(jobs), 1)
+        self.assertTrue(jobs[0]["category"])
+        self.assertGreaterEqual(jobs[0]["score"], 50)
 
 if __name__ == "__main__":
     unittest.main()

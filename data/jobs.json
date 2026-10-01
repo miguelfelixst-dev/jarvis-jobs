@@ -1,6 +1,134 @@
 {
-  "updated_at": "2026-10-01T02:20:31.259367+00:00",
-  "count": 0,
+  "updated_at": "2026-10-01T02:26:18.045Z",
+  "count": 8,
   "errors": [],
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Criação e automação de planilhas no Excel",
+      "description": "Criar e melhorar planilhas, automatizar processos com fórmulas, proteger células, desenvolver dashboards e relatórios e organizar controles administrativos e de RH.",
+      "url": "https://www.99freelas.com.br/project/criacao-e-automacao-de-planilhas-no-excel-784736",
+      "date": "2026-09-30",
+      "tags": [
+        "Brasil",
+        "Excel",
+        "planilhas",
+        "automação",
+        "dashboard",
+        "projeto"
+      ],
+      "score": 96,
+      "category": "Excel e planilhas"
+    },
+    {
+      "source": "99Freelas",
+      "title": "Planilha automatizada para gestão de fazenda",
+      "description": "Criar planilha Excel simples e automatizada para vendas, clientes, contas a receber, despesas, produção, estoque, indicadores, gráficos e histórico mensal.",
+      "url": "https://www.99freelas.com.br/project/new?rf=778238",
+      "date": "2026-09-30",
+      "tags": [
+        "Brasil",
+        "Excel",
+        "planilha",
+        "automação",
+        "projeto"
+      ],
+      "score": 90,
+      "category": "Excel e planilhas"
+    },
+    {
+      "source": "Workana",
+      "title": "Web scraping para coleta e organização de dados em Excel",
+      "description": "Desenvolver solução de web scraping para coletar informações de sites e entregar os dados organizados em uma planilha Excel limpa e estruturada.",
+      "url": "https://www.workana.com/pt/job/desenvolvimento-de-solucao-de-web-scraping-para-coleta-e-organizacao-de-dados-em-excel",
+      "date": "2026-08-04",
+      "tags": [
+        "web scraping",
+        "Excel",
+        "extração de dados",
+        "projeto"
+      ],
+      "score": 94,
+      "category": "Extração e organização de dados"
+    },
+    {
+      "source": "Workana",
+      "title": "Extração de dados web e organização em planilha Excel",
+      "description": "Extrair dados de diversos sites e organizá-los em Excel com precisão e consistência. Projeto voltado a web scraping e estruturação de dados.",
+      "url": "https://www.workana.com/pt/job/profissional-para-extracao-de-dados-web-e-organizacao-em-planilha-excel",
+      "date": "2026-07-31",
+      "tags": [
+        "web scraping",
+        "Excel",
+        "dados",
+        "projeto"
+      ],
+      "score": 91,
+      "category": "Extração e organização de dados"
+    },
+    {
+      "source": "Upwork",
+      "title": "Python Automation Script - Excel/CSV Data Processing",
+      "description": "Projeto pontual para criar um script Python que leia Excel/CSV, valide e limpe dados, remova duplicados, aplique filtros e gere uma planilha final formatada com resumo do processamento.",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Python-Automation-Script-Excel-CSV-Data-Processing_~022102452385220593190/",
+      "date": "2026-09-22",
+      "tags": [
+        "Python",
+        "Excel",
+        "CSV",
+        "automação",
+        "one-time project"
+      ],
+      "score": 98,
+      "category": "Automações simples"
+    },
+    {
+      "source": "Upwork",
+      "title": "Automation Expert for Data Extraction",
+      "description": "Automação local em Windows para ler dados de Excel, preencher um portal autorizado, extrair tabelas e devolver os resultados em Excel/CSV ou Google Sheets.",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Automation-Expert-for-Data-Extraction_~022087245940001458156/",
+      "date": "2026-08-11",
+      "tags": [
+        "automação",
+        "Excel",
+        "extração",
+        "Playwright",
+        "Selenium",
+        "one-time project"
+      ],
+      "score": 95,
+      "category": "Automações simples"
+    },
+    {
+      "source": "Freelancer",
+      "title": "Python JSON Scraper to Excel",
+      "description": "Criar uma aplicação Python simples que leia JSON de um site e gere um arquivo Excel formatado com os campos extraídos. Deve ser fácil de executar e entregar o código-fonte.",
+      "url": "https://www.freelancer.com/jobs/Excel/0",
+      "date": "2026-09-30",
+      "tags": [
+        "Python",
+        "scraping",
+        "JSON",
+        "Excel",
+        "project"
+      ],
+      "score": 92,
+      "category": "Extração e organização de dados"
+    },
+    {
+      "source": "Freelancer",
+      "title": "Web-to-Excel Data Entry",
+      "description": "Organizar textos de páginas web em um único arquivo Excel, copiar os dados para as colunas corretas e revisar erros ou informações ausentes.",
+      "url": "https://www.freelancer.com/jobs/web-scraping",
+      "date": "2026-09-30",
+      "tags": [
+        "data entry",
+        "Excel",
+        "web",
+        "project"
+      ],
+      "score": 83,
+      "category": "Extração e organização de dados"
+    }
+  ]
 }

@@ -24,7 +24,7 @@ def get_json(url):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "JarvisJobs/1.1 (+https://github.com/miguelfelixst-dev/jarvis-jobs)",
+            "User-Agent": "JarvisJobs/1.2 (+https://github.com/miguelfelixst-dev/jarvis-jobs)",
             "Accept": "application/json",
         },
     )
@@ -48,8 +48,7 @@ def normalize_date(value):
 
 def score_job(title, desc, tags):
     blob = f"{title} {desc} {' '.join(tags)}".lower()
-    score = 0
-    hits = []
+    score, hits = 0, []
     for key, points in KEYWORDS.items():
         if key in blob:
             score += points
@@ -61,8 +60,7 @@ def score_job(title, desc, tags):
 
 def add_job(out, *, source, title, desc, url, date=None, tags=None):
     tags = [clean(x) for x in (tags or []) if clean(x)]
-    title, desc = clean(title), clean(desc)
-    url = clean(url)
+    title, desc, url = clean(title), clean(desc), clean(url)
     if not title or not url:
         return
     score, hits = score_job(title, desc, tags)
@@ -82,22 +80,17 @@ def remoteok(out):
     data = get_json("https://remoteok.com/api")
     rows = data[1:] if isinstance(data, list) else []
     for j in rows:
-        if not isinstance(j, dict):
-            continue
-        add_job(
-            out, source="Remote OK", title=j.get("position", ""),
-            desc=j.get("description", ""), url=j.get("url", ""),
-            date=j.get("date") or j.get("epoch"), tags=j.get("tags", [])
-        )
+        if isinstance(j, dict):
+            add_job(out, source="Remote OK", title=j.get("position", ""),
+                    desc=j.get("description", ""), url=j.get("url", ""),
+                    date=j.get("date") or j.get("epoch"), tags=j.get("tags", []))
 
 def arbeitnow(out):
     data = get_json("https://www.arbeitnow.com/api/job-board-api")
     for j in data.get("data", []):
-        add_job(
-            out, source="Arbeitnow", title=j.get("title", ""),
-            desc=j.get("description", ""), url=j.get("url", ""),
-            date=j.get("created_at"), tags=j.get("tags", [])
-        )
+        add_job(out, source="Arbeitnow", title=j.get("title", ""),
+                desc=j.get("description", ""), url=j.get("url", ""),
+                date=j.get("created_at"), tags=j.get("tags", []))
 
 def jobicy(out):
     data = get_json("https://jobicy.com/api/v2/remote-jobs?count=50")
@@ -109,42 +102,41 @@ def jobicy(out):
                 tags.extend(value)
             elif value:
                 tags.append(value)
-        add_job(
-            out, source="Jobicy", title=j.get("jobTitle", ""),
-            desc=j.get("jobDescription", ""), url=j.get("url", ""),
-            date=j.get("pubDate"), tags=tags
-        )
+        add_job(out, source="Jobicy", title=j.get("jobTitle", ""),
+                desc=j.get("jobDescription", ""), url=j.get("url", ""),
+                date=j.get("pubDate"), tags=tags)
 
-jobs = []
-errors = []
-for name, fn in (("Remote OK", remoteok), ("Arbeitnow", arbeitnow), ("Jobicy", jobicy)):
-    try:
-        fn(jobs)
-    except Exception as exc:
-        errors.append(f"{name}: {type(exc).__name__}: {exc}")
+def collect():
+    jobs, errors = [], []
+    for name, fn in (("Remote OK", remoteok), ("Arbeitnow", arbeitnow), ("Jobicy", jobicy)):
+        try:
+            fn(jobs)
+        except Exception as exc:
+            errors.append(f"{name}: {type(exc).__name__}: {exc}")
 
-seen = set()
-unique = []
-for job in jobs:
-    key = (job.get("url") or job.get("title", "").lower()).strip()
-    if not key or key in seen:
-        continue
-    seen.add(key)
-    unique.append(job)
+    seen, unique = set(), []
+    for job in jobs:
+        key = (job.get("url") or job.get("title", "").lower()).strip()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        unique.append(job)
 
-unique.sort(
-    key=lambda x: (int(x.get("score", 0)), str(x.get("date") or "")),
-    reverse=True,
-)
+    unique.sort(key=lambda x: (int(x.get("score", 0)), str(x.get("date") or "")), reverse=True)
+    return {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(unique),
+        "errors": errors,
+        "jobs": unique[:250],
+    }
 
-payload = {
-    "updated_at": datetime.now(timezone.utc).isoformat(),
-    "count": len(unique),
-    "errors": errors,
-    "jobs": unique[:250],
-}
-OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-print(f"Salvos {len(payload['jobs'])} trabalhos.")
-if errors:
-    print("Fontes com erro:", " | ".join(errors))
+def main():
+    payload = collect()
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Salvos {len(payload['jobs'])} trabalhos.")
+    if payload["errors"]:
+        print("Fontes com erro:", " | ".join(payload["errors"]))
+
+if __name__ == "__main__":
+    main()

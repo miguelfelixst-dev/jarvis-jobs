@@ -1,4 +1,5 @@
 name: Publicar painel
+# Pages habilitado
 
 on:
   push:

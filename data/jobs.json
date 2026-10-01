@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-01T02:47:05.298430+00:00",
-  "count": 2,
+  "updated_at": "2026-10-01T02:48:12.490295+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
       "pt-BR",
       "pt-PT"
     ],
-    "max_competition": 25,
-    "preferred_competition": 10,
+    "max_competition": 15,
+    "preferred_competition": 5,
     "sources": [
       "99Freelas",
       "Workana",
@@ -33,24 +33,6 @@
         "competition": 4,
         "competition_label": "propostas",
         "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 4 Interessados: 18 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (4) Todas Aceita Rejeitadas Aguardando avaliação Myleni L. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Transcrição e organização de conteúdo em inglês para arquivo digital",
-      "description": "Busco um freelancer cuidadoso para realizar a transcrição de textos em inglês a partir de materiais fornecidos, convertendo o conteúdo para um arquivo digital organizado e fácil de editar. O trabalho consiste principalmente em digitar o conteúdo apresentado nas páginas/imagens, mantendo a sequência e a estrutura do material original sempre que possível. Atividades - Transcrever textos em inglês a partir das páginas fornecidas; - Manter títulos, parágrafos e a ordem do conteúdo; - Organizar o material em Word ou Google Docs; - Conferir a digitação antes da entrega; - Identificar trechos que estejam pouco legíveis para posterior conferência. Perfil desejado - Boa velocidade e precisão de digitação; - Bom domínio de inglês escrito; - Atenção aos detalhes; - Familiaridade com Word ou Google Docs; - Organização para trabalhar com várias páginas; - Compromisso com prazo e qualidade. Entrega O ",
-      "url": "https://www.99freelas.com.br/project/transcricao-e-organizacao-de-conteudo-em-ingles-para-arquivo-digital-788488?fs=t",
-      "date": null,
-      "tags": [
-        "arquivo"
-      ],
-      "score": 70,
-      "category": "Conversão de arquivos",
-      "meta": {
-        "competition": 9,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 9 Interessados: 20 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (9) Todas Aceita Rejeitadas Aguardando avaliação Renata F. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
         "status": "Aberto"
       }
     }

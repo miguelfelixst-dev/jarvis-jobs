@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02T15:51:47.742066+00:00",
-  "count": 3,
+  "updated_at": "2026-10-02T20:47:37.950587+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,65 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Conversão de projeto de incêndio para AutoCAD (DWG)",
-      "description": "Realizar a conversão e o redesenho de um projeto de segurança contra incêndio existente para o formato DWG, criando uma base técnica limpa e organizada, com adequação da simbologia e da legenda conforme as orientações fornecidas. A entrega deverá incluir os arquivos em DWG e DWF, acompanhados dos respectivos arquivos CTB, com os layers devidamente nomeados. São nove pranchas de uma edificação multifamiliar. Habilidades desejadas: AutoCAD",
-      "url": "https://www.99freelas.com.br/project/conversao-de-projeto-de-incendio-para-autocad-dwg-788892?fs=t",
-      "date": null,
-      "tags": [
-        "conversão",
-        "arquivo",
-        "arquivos"
-      ],
-      "score": 85,
-      "category": "Conversão de arquivos",
-      "meta": {
-        "competition": 5,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 5 Interessados: 9 Tempo restante: Valor Mínimo: R$ 70,00 Propostas (5) Todas Aceita Rejeitadas Aguardando avaliação RAMON S. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Freelancer para organização de dados",
-      "description": "Freelancer para organização e transcrição de base de clientes Estamos procurando um(a) freelancer para realizar a transcrição e organização de uma base de clientes. O trabalho consiste em receber arquivos em formato de Bloco de Notas (.txt) contendo informações como nome do cliente e número de telefone e transferir esses dados para uma planilha Excel, mantendo a maior fidelidade possível às informações originais. Requisitos: * Conhecimento básico/intermediário de Excel; * Boa digitação e atenção aos detalhes; * Facilidade para trabalhar com arquivos de texto (.txt) com grande volume de informações; * Saber organizar dados em colunas e padronizar a planilha; * Capacidade de trabalhar com grandes quantidades de registros sem perder informações; * Responsabilidade e sigilo com dados de clientes; * Experiência anterior com digitação, transcrição ou tratamento de bases de dados será um difere",
-      "url": "https://www.99freelas.com.br/project/freelancer-para-organizacao-de-dados-788893?fs=t",
-      "date": null,
-      "tags": [
-        "organização de dados",
-        "organizar dados",
-        "digitação"
-      ],
-      "score": 84,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 8,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 8 Interessados: 10 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (8) Todas Aceita Rejeitadas Aguardando avaliação Adson J S. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Planilha orçamentária e cronograma físico-financeiro de arquitetura",
-      "description": "Planilha Orçamentária - Arquitetura Elaboração de planilha orçamentária referente aos serviços de arquitetura e demais elementos pertinentes ao projeto, contemplando o levantamento e quantificação dos serviços, materiais e componentes necessários à execução da obra, com composição detalhada dos custos unitários, utilizando sistemas oficiais de referência de custos vigentes, tais como SINAPI, SICRO ou equivalente. Deverá contemplar a aplicação do BDI para obras públicas, com demonstração de sua composição, bem como memória de cálculo e pesquisa de preços para itens não contemplados nos sistemas oficiais. Cronograma Físico-Financeiro - Arquitetura Elaboração de cronograma físico-financeiro dos serviços de arquitetura e execução da obra, contemplando a programação das etapas e serviços, a sequência lógica de execução, os respectivos prazos e a previsão dos desembolsos financeiros correspond",
-      "url": "https://www.99freelas.com.br/project/planilha-orcamentaria-e-cronograma-fisico-financeiro-de-arquitetura-788880?fs=t",
-      "date": null,
-      "tags": [
-        "planilha",
-        "excel"
-      ],
-      "score": 72,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 14,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 14 Interessados: 24 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Mauro V. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

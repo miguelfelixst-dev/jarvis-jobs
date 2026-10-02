@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:42:44.866138+00:00",
+  "updated_at": "2026-10-02T08:36:47.250301+00:00",
   "count": 1,
   "errors": [],
   "rules": {
@@ -19,23 +19,19 @@
   "jobs": [
     {
       "source": "99Freelas",
-      "title": "Conversão de dissertação de mestrado de PDF para LaTeX",
-      "description": "Preciso converter uma dissertação de mestrado, com aproximadamente 190 páginas, atualmente em PDF, para um projeto completo em LaTeX. O conteúdo está em português e deve ser preservado integralmente, sem tradução. O trabalho deve incluir textos, tabelas, figuras, equações, referências, sumário, legendas e demais elementos acadêmicos, mantendo a formatação o mais fiel possível ao documento original. Preciso receber todos os arquivos LaTeX organizados, editáveis e compilando sem erros. Dou preferência a profissionais com experiência comprovada em LaTeX, especialmente em dissertações, teses ou trabalhos acadêmicos. Antes da contratação, gostaria de ver exemplos de trabalhos anteriores ou, se possível, uma pequena amostra da conversão. Habilidades desejadas: LaTeX Publicação Acadêmica Publicação de Artigos",
-      "url": "https://www.99freelas.com.br/project/conversao-de-dissertacao-de-mestrado-de-pdf-para-latex-788789?fs=t",
+      "title": "Especialista em Apollo.io + CRM + Automação de Prospecção B2B",
+      "description": "Busco profissional com experiência prática em Apollo.io, CRM e automação de prospecção B2B para implementar e deixar operacional uma máquina de outbound já desenhada. Não procuro agência de marketing, criação de estratégia comercial ou gestão mensal. Já temos ICP, ofertas, processo comercial e SDR interno. O objetivo é configuração técnica, integração, testes e treinamento do operador. Contexto: Somos uma consultoria de Performance Comercial B2B. Temos um SDR interno que fará a operação e precisamos reduzir tarefas manuais de pesquisa, enriquecimento, abordagem e follow-up. Escopo inicial do projeto: 1. Configurar corretamente o Apollo.io. 2. Estruturar filtros de empresas e decisores conforme nossos ICPs. 3. Configurar listas, enriquecimento e organização dos leads. 4. Configurar sequences/cadências de outbound, principalmente e-mail, com tarefas para outros canais quando necessário. 5.",
+      "url": "https://www.99freelas.com.br/project/especialista-em-apollo-io-crm-automacao-de-prospeccao-b2b-788804?fs=t",
       "date": null,
       "tags": [
-        "conversão",
-        "pdf",
-        "converter",
-        "arquivo",
-        "arquivos"
+        "automação"
       ],
-      "score": 100,
-      "category": "Conversão de arquivos",
+      "score": 86,
+      "category": "Automações simples",
       "meta": {
-        "competition": 2,
+        "competition": 3,
         "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 2 Interessados: 3 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação Zero27 A. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 3 Interessados: 4 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (3) Todas Aceita Rejeitadas Aguardando avaliação Fellipe A. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
         "status": "Aberto"
       }
     }

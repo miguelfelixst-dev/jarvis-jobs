@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01T21:51:06.912002+00:00",
-  "count": 0,
+  "updated_at": "2026-10-02T01:42:44.866138+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,28 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Conversão de dissertação de mestrado de PDF para LaTeX",
+      "description": "Preciso converter uma dissertação de mestrado, com aproximadamente 190 páginas, atualmente em PDF, para um projeto completo em LaTeX. O conteúdo está em português e deve ser preservado integralmente, sem tradução. O trabalho deve incluir textos, tabelas, figuras, equações, referências, sumário, legendas e demais elementos acadêmicos, mantendo a formatação o mais fiel possível ao documento original. Preciso receber todos os arquivos LaTeX organizados, editáveis e compilando sem erros. Dou preferência a profissionais com experiência comprovada em LaTeX, especialmente em dissertações, teses ou trabalhos acadêmicos. Antes da contratação, gostaria de ver exemplos de trabalhos anteriores ou, se possível, uma pequena amostra da conversão. Habilidades desejadas: LaTeX Publicação Acadêmica Publicação de Artigos",
+      "url": "https://www.99freelas.com.br/project/conversao-de-dissertacao-de-mestrado-de-pdf-para-latex-788789?fs=t",
+      "date": null,
+      "tags": [
+        "conversão",
+        "pdf",
+        "converter",
+        "arquivo",
+        "arquivos"
+      ],
+      "score": 100,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 2,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 2 Interessados: 3 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação Zero27 A. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

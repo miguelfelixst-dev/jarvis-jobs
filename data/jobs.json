@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-03T00:32:31.570614+00:00",
-  "count": 0,
+  "updated_at": "2026-10-03T06:36:14.487720+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Técnico de manutenção de computadores e notebooks",
+      "description": "Faço a manutenção, instalação e reparos em notebooks e computadores de mesa, impressoras e instalação de programas e antivírus. Instalação de novos equipamentos e dispositivos como por exemplo: Hd, Memória, fonte entre outros que compõe um Pc. Tem dúvidas? Faça uma pergunta . ou Enviar proposta Informações adicionais Categoria: Outra Categoria Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante: Tem dúvidas? Faça uma pergunta . Faça uma pergunta ou Enviar proposta Informações adicionais Categoria: Outra Categoria Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante:",
+      "url": "https://www.99freelas.com.br/project/tecnico-de-manutencao-de-computadores-e-notebooks-789049?fs=t",
+      "date": null,
+      "tags": [
+        "ebook"
+      ],
+      "score": 76,
+      "category": "Produtos digitais",
+      "meta": {
+        "competition": 0,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante: Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Retirada de boletos em banco (São Paulo/SP) - Estamos buscando um(a) freelancer para realizar um serviço presencial em São Paulo/SP. Atividades: - Comparecer à nossa empresa para retirar procurações; - Ir a... Restaurador/marceneiro para móveis garimpados (São Paulo/SP) - Procuro restaurador(a) de móveis / marceneiro(a) com experiência em restauração para uma demanda inicial de vários móveis, com possibilidade real de parceri... Testador de produto - fone Bluetooth/áudio - Estamos procurando pessoas no Brasil que gostam de fones de ouvido, música, tecnologia e produtos eletrônicos para participar de um projeto de teste e avaliação prá... Contratação de profissionais para evento cultural (São Paulo/SP) - Estamos buscando profissionais freelancers para atuar em um evento cultural gratuito, que será realizado em um teatro na Zona Norte de São Paulo. O espaço possui aproximadamen... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

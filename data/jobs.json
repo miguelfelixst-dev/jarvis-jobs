@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T17:39:17.209281+00:00",
-  "count": 0,
+  "updated_at": "2026-10-04T21:33:43.691842+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Digitação correção de texos e escrita.",
+      "description": "Atendimento por menssans ou chats responder e organizar E-mails pesquisa e coletas de de informações preenchimentos de formulários e planilhas simples ,criação de conteúdos e relatos pessoais e assistência virtual geral. Habilidades desejadas: .NET Framework .NET Remoting",
+      "url": "https://www.99freelas.com.br/project/digitacao-correcao-de-texos-e-escrita-789283?fs=t",
+      "date": null,
+      "tags": [
+        "digitação"
+      ],
+      "score": 84,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 3,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 3 Interessados: 6 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (3) Todas Aceita Rejeitadas Aguardando avaliação Artur G. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

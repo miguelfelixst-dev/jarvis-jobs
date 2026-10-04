@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-03T21:22:26.391820+00:00",
-  "count": 1,
+  "updated_at": "2026-10-04T00:41:47.217170+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Disparo de mensagens no WhatsApp, Facebook e Instagram",
-      "description": "Preciso disparar mensagens para divulgar um evento que será hoje à noite em São Paulo. O evento é hoje à noite, e tenho que fazer esse disparo antes das 17h. O disparo pode ser feito no WhatsApp, Facebook, Instagram... Tenho as listas de contatos e tudo mais. Habilidades desejadas: Geração de Leads Marketing Promoção de Vendas Vendas Vendas de Mídia",
-      "url": "https://www.99freelas.com.br/project/disparo-de-mensagens-no-whatsapp-facebook-e-instagram-789146?fs=t",
-      "date": null,
-      "tags": [
-        "ebook"
-      ],
-      "score": 71,
-      "category": "Produtos digitais",
-      "meta": {
-        "competition": 7,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 7 Interessados: 14 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (7) Todas Aceita Rejeitadas Aguardando avaliação Elizeu B. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

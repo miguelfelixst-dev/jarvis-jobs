@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T13:15:05.172955+00:00",
-  "count": 1,
+  "updated_at": "2026-10-04T17:39:17.209281+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,25 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Gerenciamento de planilha de custos",
-      "description": "Organização e estruturação de uma planilha para controle financeiro de uma loja de semijoias, incluindo custos dos produtos, despesas, formação de preços, margem de lucro e acompanhamento dos resultados. O objetivo é facilitar a gestão financeira e auxiliar na definição de preços de venda mais organizados e adequados ao negócio. Habilidades desejadas: Excel Organização",
-      "url": "https://www.99freelas.com.br/project/gerenciamento-de-planilha-de-custos-789205?fs=t",
-      "date": null,
-      "tags": [
-        "planilha",
-        "excel"
-      ],
-      "score": 72,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 15,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 15 Interessados: 23 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (15) Todas Aceita Rejeitadas Aguardando avaliação Anelise M. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

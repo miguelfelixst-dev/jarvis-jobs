@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T00:41:47.217170+00:00",
-  "count": 0,
+  "updated_at": "2026-10-04T06:59:29.506838+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Cadastro e implantação de propriedade na Booking.com",
+      "description": "Preciso de um profissional com experiência em Booking.com para fazer a implantação completa de uma propriedade, deixando o anúncio corretamente configurado e pronto para receber reservas. A propriedade é um flat de temporada localizado em Muro Alto, Ipojuca/PE. O serviço inclui: Cadastro/configuração completa da propriedade na Booking.com; Configuração do tipo de acomodação e quartos; Endereço e localização correta no mapa; Cadastro de comodidades; Organização e inserção das fotos; Criação/ajuste da descrição do anúncio; Configuração de tarifas; Configuração de disponibilidade/calendário; Políticas da propriedade; Política de cancelamento; Configurações necessárias para receber reservas; Orientação sobre eventuais documentos/verificações solicitados pela Booking; Revisão final e auxílio para deixar a propriedade publicada e aberta para reservas. Importante: Não procuro empresa para admin",
+      "url": "https://www.99freelas.com.br/project/cadastro-e-implantacao-de-propriedade-na-booking-com-789210?fs=t",
+      "date": null,
+      "tags": [
+        "cadastro"
+      ],
+      "score": 84,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 1,
+        "competition_label": "propostas",
+        "budget": "Orçamento: R$ 200 pelo serviço completo, podendo ser negociado conforme a experiência e complexidade. O pagamento será realizado conforme combinado, preferencialmente após a conclusão da implantação e entrega da propriedade corretamente configurada. Na proposta, por favor informe: Sua experiência com Booking.com; Quantas propriedades já cadastrou; Valor para realizar este serviço; Prazo para conclusão. Atividades do cliente nesse projeto: Última visualização: hoje às 03:11 Tem dúvidas? Faça uma pergunta . ou Enviar proposta Informações adicionais Categoria: Outra Categoria Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 1 Interessados: 1 Tempo restante: Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Wallace L. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

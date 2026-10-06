@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T03:02:58.564134+00:00",
-  "count": 0,
+  "updated_at": "2026-10-06T10:25:53.856813+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,44 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Assistente Administrativo | Atendimento, Planilhas e Organização",
+      "description": "Olá! Meu nome é Vitor, tenho 31 anos e sou profissional da área administrativa, com experiência em atendimento, recepção, organização e rotinas administrativas. Atualmente trabalho na recepção de um hospital particular no período noturno e também curso Gestão Pública, buscando constantemente aprimorar meus conhecimentos. Posso auxiliar empresas e profissionais com atividades como: • Atendimento ao cliente e suporte administrativo; • Organização de documentos e arquivos; • Digitação e cadastro de informações; • Preenchimento e atualização de planilhas; • Lançamento e conferência de dados; • Controle e acompanhamento de demandas; • Organização de e-mails e informações; • Suporte em rotinas administrativas e de escritório; • Pesquisa e levantamento de informações; • Atendimento por WhatsApp, telefone e outros canais. Sou responsável, organizado, comprometido com prazos e tenho facilidade pa",
+      "url": "https://www.99freelas.com.br/project/assistente-administrativo-atendimento-planilhas-e-organizacao-789569?fs=t",
+      "date": null,
+      "tags": [
+        "planilha",
+        "planilhas",
+        "excel"
+      ],
+      "score": 100,
+      "category": "Excel e planilhas",
+      "meta": {
+        "competition": 0,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Assistente virtual para organização e apoio administrativo - Olá! Sou fotógrafa e trabalho sozinha na gestão da minha empresa. Hoje concentro atendimento, contratos, pagamentos, Trello, prazos, edição, álbuns e outra... Assistente virtual para suporte administrativo - Assistente administrativo virtual para suporte em rotinas diárias Preciso de um assistente virtual para ajudar com tarefas administrativas diárias da minha empresa. As principais fun... Apoio administrativo com inglês para projeto - Estou buscando uma pessoa para me auxiliar com algumas demandas administrativas e de suporte. As atividades podem envolver organização de informações, atualizaç&... Assistente pessoal para produtor de cinema - Freelancer por 4 horas diárias durante 15 dias, para atuar como assistente pessoal de um produtor de cinema. As atividades estarão relacionadas à vida pessoal dele, como marcar... Assistente pessoal para produtor de cinema - Freelancer por 4 horas diárias, durante 15 dias, para atuar como assistente pessoal de um produtor de cinema. As atividades estarão relacionadas à vida pessoal dele, como marca... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Automação de Requisições e Criação de Contas em Massa",
+      "description": "Procuro um desenvolvedor experiente em automação de processos de backend para criar um script capaz de gerar contas guest em massa de forma automatizada. Requisitos do projeto: • Conhecimento avançado em simulação de requisições HTTP/API. • Experiência com rotação de proxies residenciais para evitar bloqueios de IP. • Integração com serviços de resolução de Captcha/Recaptcha. • Conhecimento em evasão de device fingerprinting (impressão digital do dispositivo). Por favor, envie propostas com seu portfólio de automações anteriores e uma estimativa de custos para a infraestrutura necessária (proxies, servidores, etc.). Habilidades desejadas: Automação de processos robóticos Desenvolvimento Back-End Desenvolvimento de API NodeJS Python",
+      "url": "https://www.99freelas.com.br/project/automacao-de-requisicoes-e-criacao-de-contas-em-massa-789575?fs=t",
+      "date": null,
+      "tags": [
+        "automação"
+      ],
+      "score": 86,
+      "category": "Automações simples",
+      "meta": {
+        "competition": 2,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 2 Interessados: 2 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação RAMON S. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

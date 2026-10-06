@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T17:15:28.839481+00:00",
-  "count": 0,
+  "updated_at": "2026-10-06T21:42:34.224690+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Gestão de tráfego no Facebook Ads - 30 dias",
+      "description": "Preciso de um gestor de tráfego para minha agência de marketing digital. Temos foco em e-commerce e Facebook Ads. Início imediato. Valor fixo alto, não comissionado. Habilidades desejadas: Facebook ADS Facebook Pixel",
+      "url": "https://www.99freelas.com.br/project/gestao-de-trafego-no-facebook-ads-30-dias-789761?fs=t",
+      "date": null,
+      "tags": [
+        "ebook"
+      ],
+      "score": 71,
+      "category": "Produtos digitais",
+      "meta": {
+        "competition": 6,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 6 Interessados: 7 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (6) Todas Aceita Rejeitadas Aguardando avaliação VIZBLEE Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

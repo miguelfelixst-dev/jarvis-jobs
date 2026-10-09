@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T02:14:11.273807+00:00",
-  "count": 3,
+  "updated_at": "2026-10-09T09:14:18.673901+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,66 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Criar planilha PMBOK com dashboards e atalhos (Excel / Power BI)",
-      "description": "Procuro especialista em Excel / Power BI para criar uma planilha do zero focada em acompanhamento e evolução de projetos segundo a metodologia PMBOK. Deve conter dashboards visuais, botões de navegação e estar estruturada para facilitar integração com Power BI. Ideias de layout serão fornecidas. Por favor, envie orçamento, prazo e exemplos de dashboards criados. Habilidades desejadas: Análise de Dados Excel VBA Microsoft Power BI",
-      "url": "https://www.99freelas.com.br/project/criar-planilha-pmbok-com-dashboards-e-atalhos-excel-power-bi-790311?fs=t",
-      "date": null,
-      "tags": [
-        "excel",
-        "planilha",
-        "dashboard",
-        "dashboards",
-        "vba"
-      ],
-      "score": 100,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 2,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 2 Interessados: 6 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação Moisés G. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Criar planilha PMBOK para evolução de projetos",
-      "description": "- Criar uma planilha para acompanhamento e evolução de projetos em desenvolvimento. - Criar a planilha do zero, porém já foram elaboradas algumas ideias em imagens por meio de IA, que estão anexadas. - Criar dashboards e botões de acesso (atalhos) para facilitar a navegação e a visualização dos relatórios. - Implementar fórmulas e organização para facilitar a atualização dos dados e, se necessário, preparar a planilha para integração com o Power BI. Arquivos anexados: Entre ou Cadastre-se para ver os arquivos anexados.",
-      "url": "https://www.99freelas.com.br/project/criar-planilha-pmbok-para-evolucao-de-projetos-790309?fs=t",
-      "date": null,
-      "tags": [
-        "planilha",
-        "dashboard",
-        "dashboards"
-      ],
-      "score": 87,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 6,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 6 Interessados: 9 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (6) Todas Aceita Rejeitadas Aguardando avaliação Rafaela G. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Adicionar cabeçalho e corrigir texto em e-book",
-      "description": "Profissional experiente em diagramação de e-book para apenas acrescentar o cabeçalho ao PDF e alterar duas palavras no texto. Habilidades desejadas: Experiência do Funcionário",
-      "url": "https://www.99freelas.com.br/project/adicionar-cabecalho-e-corrigir-texto-em-e-book-790292?fs=t",
-      "date": null,
-      "tags": [
-        "e-book"
-      ],
-      "score": 71,
-      "category": "Produtos digitais",
-      "meta": {
-        "competition": 6,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 6 Interessados: 9 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (6) Todas Aceita Rejeitadas Aguardando avaliação Amanda S. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

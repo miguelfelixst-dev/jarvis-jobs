@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T15:25:16.956680+00:00",
-  "count": 1,
+  "updated_at": "2026-10-10T20:07:00.182501+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,25 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Cadastro de produtos de moda fitness em marketplaces",
-      "description": "Procuro um freelancer para cadastrar produtos da minha loja de moda fitness e casual nos marketplaces Shopee, Mercado Livre e Amazon. O trabalho inclui: - Cadastro de produtos com títulos adequados para busca. - Descrições comerciais. - Cadastro de cores, tamanhos e variações. - Organização das fotos e características dos produtos fornecidos pela loja. Busco profissional autônomo ou pequena equipe, preferencialmente de São Paulo, com experiência comprovada em marketplaces. Quero começar com um lote pequeno e ampliar o trabalho conforme os resultados. Na proposta, informe: - Experiência nas plataformas. - Preço por produto e por pacote. - Prazo de entrega. - Possibilidade de trabalho por preço fechado, sem mensalidade. Procuro qualidade e bom custo-benefício para um pequeno negócio. Habilidades desejadas: eCommerce Entrada de Dados",
-      "url": "https://www.99freelas.com.br/project/cadastro-de-produtos-de-moda-fitness-em-marketplaces-790603?fs=t",
-      "date": null,
-      "tags": [
-        "cadastro",
-        "entrada de dados"
-      ],
-      "score": 74,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 11,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 11 Interessados: 14 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (11) Todas Aceita Rejeitadas Aguardando avaliação Jane O. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

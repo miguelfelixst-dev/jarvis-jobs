@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11T12:58:03.609241+00:00",
-  "count": 0,
+  "updated_at": "2026-10-11T18:07:29.988746+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Identidade visual completa para empresa de tecnologia e automação",
+      "description": "Olá! Sou da Maxtec Soluções, empresa de redes, CFTV, controle de acesso, cabeamento e automação residencial. Busco designer para criar nossa nova identidade visual: logo moderna. Tenho referências e estudos para enviar. Habilidades desejadas: Design Design Criativo Design de Logotipo Identidade Corporativa Identidade Visual",
+      "url": "https://www.99freelas.com.br/project/identidade-visual-completa-para-empresa-de-tecnologia-e-automacao-790768?fs=t",
+      "date": null,
+      "tags": [
+        "automação"
+      ],
+      "score": 86,
+      "category": "Automações simples",
+      "meta": {
+        "competition": 3,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 3 Interessados: 4 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (3) Todas Aceita Rejeitadas Aguardando avaliação Lucas R. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

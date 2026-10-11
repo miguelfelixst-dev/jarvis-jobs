@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11T05:54:07.841120+00:00",
-  "count": 1,
+  "updated_at": "2026-10-11T12:58:03.609241+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,25 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Criar planilha automatizada no Google Sheets",
-      "description": "Criar uma planilha no Google Sheets, usando métodos de automação para deixá-la mais produtiva. Habilidades desejadas: Windows Server Windows Service",
-      "url": "https://www.99freelas.com.br/project/criar-planilha-automatizada-no-google-sheets-790691?fs=t",
-      "date": null,
-      "tags": [
-        "google sheets",
-        "planilha"
-      ],
-      "score": 81,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 13,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 13 Interessados: 23 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (13) Todas Aceita Rejeitadas Aguardando avaliação Victor Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T09:29:38.642851+00:00",
-  "count": 2,
+  "updated_at": "2026-10-13T17:37:50.453843+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,44 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Digitação, Revisão e Formatação de Textos e Documentos",
-      "description": "Ofereço serviços de digitação, revisão e formatação de textos e documentos, com atenção aos detalhes, organização e compromisso com a qualidade. Posso auxiliar na digitação de documentos, correção de erros ortográficos e gramaticais, organização de textos, padronização da formatação e adequação de documentos às orientações fornecidas pelo cliente. Meu objetivo é entregar um trabalho organizado, claro e bem apresentado, respeitando as instruções e os prazos combinados. Prezo pela responsabilidade, pela comunicação clara e pela dedicação em cada serviço realizado. Estou à disposição para entender as necessidades de cada cliente e oferecer uma solução adequada ao projeto. Habilidades desejadas: Digitação Digitação Avançada",
-      "url": "https://www.99freelas.com.br/project/digitacao-revisao-e-formatacao-de-textos-e-documentos-791024?fs=t",
-      "date": null,
-      "tags": [
-        "digitação"
-      ],
-      "score": 84,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 1,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 1 Interessados: 5 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Flávia P. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Digitação de textos e documentos para arquivos editáveis",
-      "description": "Preciso de um freelancer para realizar serviços de digitação. O trabalho consiste em passar textos de imagens, fotos ou PDFs para documentos editáveis, mantendo a organização e o conteúdo original. Procuro alguém cuidadoso, organizado e que consiga entregar dentro do prazo combinado. A quantidade de páginas e o prazo serão combinados com o freelancer. Habilidades desejadas: .NET Compact Framework ABBYY FineReader Ableton Live Digitação",
-      "url": "https://www.99freelas.com.br/project/digitacao-de-textos-e-documentos-para-arquivos-editaveis-791029?fs=t",
-      "date": null,
-      "tags": [
-        "arquivo",
-        "arquivos",
-        "pdf"
-      ],
-      "score": 89,
-      "category": "Conversão de arquivos",
-      "meta": {
-        "competition": 8,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 8 Interessados: 18 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (8) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

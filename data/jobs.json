@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T01:31:33.566291+00:00",
-  "count": 1,
+  "updated_at": "2026-10-15T07:30:48.290967+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Revisão de livro para publicação em e-book",
-      "description": "Leitura crítica do manuscrito e revisão gramatical, de coerência, coesão e ritmo. O profissional deverá ter domínio da língua portuguesa, bem como entender de livros. Atividades do cliente nesse projeto: Última visualização: hoje às 21:41",
-      "url": "https://www.99freelas.com.br/project/revisao-de-livro-para-publicacao-em-e-book-791594?fs=t",
-      "date": null,
-      "tags": [
-        "e-book"
-      ],
-      "score": 66,
-      "category": "Produtos digitais",
-      "meta": {
-        "competition": 10,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 10 Interessados: 23 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (10) Todas Aceita Rejeitadas Aguardando avaliação Ana L. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

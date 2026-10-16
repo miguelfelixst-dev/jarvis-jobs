@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T01:25:56.369025+00:00",
-  "count": 0,
+  "updated_at": "2026-10-16T07:15:42.950403+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,26 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Escrita, copywriting e digitação",
+      "description": "Ofereço digitação, transcrição de áudios, copywriting , organização de informações , cadastro de dados, com atenção e compromisso com prazos. Preços iniciais para começar: digitação de até 5 páginas, entre 20 e 40 reais. Transcrição de 10 minutos de áudio, 15 a 30 reais. Cadastro de 20 produtos, cerca de 25 a 50 reais. Atividades do cliente nesse projeto: Última visualização: ontem às 23:55",
+      "url": "https://www.99freelas.com.br/project/escrita-copywriting-e-digitacao-791918?fs=t",
+      "date": null,
+      "tags": [
+        "digitação",
+        "cadastro de dados",
+        "cadastro"
+      ],
+      "score": 94,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 0,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 6 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Copywriter de performance para criativos de anúncios de produto digital - Estou procurando um profissional experiente em copywriting de performance e marketing digital para desenvolver o roteiro completo de um criativo de vendas para um produto digital de baixo ticket. ... Redator(a) para copy de loja virtual e textos pontuais - Busco redator(a) para trabalhos pontuais e sob demanda, começando por copy de loja virtual (descrições de produtos, páginas e textos institucionais) e outros tipos de te... Advertorial em inglês para os EUA (copy + página HTML) - Sou afiliado e vou anunciar um suplemento (probiótico oral) para o público dos EUA via Google Ads. Preciso de um advertorial longo em inglês, no estilo de revista online, que le... Desenvolvimento de copies persuasivas para redes sociais - Desenvolvimento de copies persuasivas para 8 reels, 8 posts e 4 carrosséis para nichos diversos, com foco em prender a atenção e gerar desejo. @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T22:24:11.267411+00:00",
-  "count": 1,
+  "updated_at": "2026-10-16T01:25:56.369025+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Automação de fluxo no n8n com proxy",
-      "description": "Preciso de alguém que entenda profundamente de IPs, dispositivos, Wi-Fi e internet. Eu tenho n8n, proxy e IA, porém não estamos conseguindo obter mais avaliações. Preciso de alguém que construa um fluxo no n8n que eu possa executar para disparar um fluxo de mensagens. Habilidades desejadas: Automação de Testes Desenvolvimento de API Desenvolvimento de Banco de Dados Desenvolvimento Web DevOps",
-      "url": "https://www.99freelas.com.br/project/automacao-de-fluxo-no-n8n-com-proxy-791869?fs=t",
-      "date": null,
-      "tags": [
-        "automação"
-      ],
-      "score": 71,
-      "category": "Automações simples",
-      "meta": {
-        "competition": 14,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 14 Interessados: 15 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Fellipe A. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

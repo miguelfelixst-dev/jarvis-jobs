@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T21:16:13.668449+00:00",
-  "count": 0,
+  "updated_at": "2026-10-16T23:41:53.374387+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,26 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Vetorização de moldes de costura e arquivos digitais para venda",
+      "description": "Tenho uma marca de produtos artesanais, especializada em bonecas de pano e outros artigos de costura criativa, e procuro um profissional para transformar meus moldes físicos em arquivos digitais profissionais. O trabalho inclui: - Vetorizar os moldes a partir de imagens, fotografias ou digitalizações. - Respeitar rigorosamente as medidas originais das peças. - Preparar arquivos PDF em tamanho A4, com escala real de 100%, prontos para impressão. - Organizar as peças do molde de forma clara e adequada para uso por outras costureiras. - Preparar os arquivos para comercialização como produtos digitais. - Entregar o PDF final e os arquivos vetoriais editáveis. Busco alguém cuidadoso com medidas e detalhes técnicos, preferencialmente com experiência em moldes de costura, modelagem ou desenho técnico. Gostaria de receber portfólio, orçamento e prazo de entrega. Tenho interesse em estabelecer um",
+      "url": "https://www.99freelas.com.br/project/vetorizacao-de-moldes-de-costura-e-arquivos-digitais-para-venda-792118?fs=t",
+      "date": null,
+      "tags": [
+        "arquivo",
+        "arquivos",
+        "pdf"
+      ],
+      "score": 99,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 3,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 3 Interessados: 4 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (3) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

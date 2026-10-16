@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T07:15:42.950403+00:00",
-  "count": 1,
+  "updated_at": "2026-10-16T12:32:16.431756+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -19,21 +19,40 @@
   "jobs": [
     {
       "source": "99Freelas",
-      "title": "Escrita, copywriting e digitação",
-      "description": "Ofereço digitação, transcrição de áudios, copywriting , organização de informações , cadastro de dados, com atenção e compromisso com prazos. Preços iniciais para começar: digitação de até 5 páginas, entre 20 e 40 reais. Transcrição de 10 minutos de áudio, 15 a 30 reais. Cadastro de 20 produtos, cerca de 25 a 50 reais. Atividades do cliente nesse projeto: Última visualização: ontem às 23:55",
-      "url": "https://www.99freelas.com.br/project/escrita-copywriting-e-digitacao-791918?fs=t",
+      "title": "Criação de Instagram com IA e automação de WhatsApp para vendas",
+      "description": "Busco um profissional com experiência em inteligência artificial, automação de WhatsApp e gestão de Instagram para desenvolver uma operação de vendas digitais com o máximo possível de processos automatizados. Sobre o negócio O projeto consiste na criação de um canal de vendas pelo Instagram, com foco em produtos diversos, principalmente eletrônicos, celulares, acessórios e itens de tecnologia. Nosso diferencial será o atendimento presencial. O cliente conhece os produtos pelo Instagram, inicia o contato pelo WhatsApp e, após o atendimento inicial, um vendedor poderá ir até o endereço do cliente para apresentar os produtos, finalizar a venda e receber o pagamento. O que preciso desenvolver: 1. Instagram comercial - Estruturação e configuração do perfil profissional. - Criação de identidade visual e modelos de publicações. - Planejamento e automação das postagens diárias. - Utilização de I",
+      "url": "https://www.99freelas.com.br/project/criacao-de-instagram-com-ia-e-automacao-de-whatsapp-para-vendas-791962?fs=t",
       "date": null,
       "tags": [
-        "digitação",
-        "cadastro de dados",
-        "cadastro"
+        "automação",
+        "automatizar"
       ],
-      "score": 94,
-      "category": "Extração e organização de dados",
+      "score": 86,
+      "category": "Automações simples",
       "meta": {
-        "competition": 0,
+        "competition": 5,
         "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 6 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Copywriter de performance para criativos de anúncios de produto digital - Estou procurando um profissional experiente em copywriting de performance e marketing digital para desenvolver o roteiro completo de um criativo de vendas para um produto digital de baixo ticket. ... Redator(a) para copy de loja virtual e textos pontuais - Busco redator(a) para trabalhos pontuais e sob demanda, começando por copy de loja virtual (descrições de produtos, páginas e textos institucionais) e outros tipos de te... Advertorial em inglês para os EUA (copy + página HTML) - Sou afiliado e vou anunciar um suplemento (probiótico oral) para o público dos EUA via Google Ads. Preciso de um advertorial longo em inglês, no estilo de revista online, que le... Desenvolvimento de copies persuasivas para redes sociais - Desenvolvimento de copies persuasivas para 8 reels, 8 posts e 4 carrosséis para nichos diversos, com foco em prender a atenção e gerar desejo. @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 5 Interessados: 7 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (5) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Pesquisa de empresas no noroeste paulista e preenchimento de planilha",
+      "description": "Preciso de um freelancer para pesquisar indústrias e empresas de médio e grande porte na região noroeste do interior de SP (como Araçatuba, Birigui, Penápolis e Andradina) e preencher uma planilha no Google Sheets que eu vou fornecer. Para cada empresa, preciso de: nome, segmento, cidade, número aproximado de funcionários, nome e cargo do responsável (RH, SESMT, Segurança do Trabalho ou gerência industrial), LinkedIn, telefone/WhatsApp e e-mail. Quantidade inicial: 40 empresas. Use apenas fontes públicas (site da empresa, Google, LinkedIn, Google Maps). Não invente dados: se não encontrar um contato, deixe em branco. Dou preferência a quem tem atenção aos detalhes e cumpre prazos. Peço uma amostra de 5 empresas antes de seguir com o restante. Habilidades desejadas: Excel Google Sheets Word",
+      "url": "https://www.99freelas.com.br/project/pesquisa-de-empresas-no-noroeste-paulista-e-preenchimento-de-planilha-791958?fs=t",
+      "date": null,
+      "tags": [
+        "planilha",
+        "excel",
+        "google sheets"
+      ],
+      "score": 77,
+      "category": "Excel e planilhas",
+      "meta": {
+        "competition": 12,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 12 Interessados: 16 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (12) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
         "status": "Aberto"
       }
     }

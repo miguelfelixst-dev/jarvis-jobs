@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17T17:15:59.884389+00:00",
-  "count": 1,
+  "updated_at": "2026-10-17T19:30:05.066728+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Pesquisa online e mapeamento de lojas de materiais de construção 14 cidades",
-      "description": "Identificar e mapear estabelecimentos de materiais de construção em 14 cidades de Alagoas, Bahia, Pernambuco e Sergipe. A atividade será realizada remotamente, por pesquisa no Google Maps e complementação em sites e redes sociais dos estabelecimentos. Informações a coletar -Nome do estabelecimento, nome comercial e rede, quando houver. -Localização: endereço completo, bairro, município e UF. -Coordenadas: latitude e longitude em graus decimais, correspondentes ao ponto da loja. -Google Maps: link direto do estabelecimento. -Funcionamento: ativo, temporariamente fechado, permanentemente fechado ou não confirmado. -Contatos comerciais: telefone e WhatsApp publicados. -Presença digital: site, Instagram e Facebook, quando localizados. -Avaliações: nota e quantidade de avaliações no Google. -Horários: dias e horários publicados. -Perfil da operação: loja generalista, home center, atacadista/d",
-      "url": "https://www.99freelas.com.br/project/pesquisa-online-e-mapeamento-de-lojas-de-materiais-de-construcao-14-cidades-792225?fs=t",
-      "date": null,
-      "tags": [
-        "pesquisa online"
-      ],
-      "score": 79,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 4,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 4 Interessados: 4 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (4) Todas Aceita Rejeitadas Aguardando avaliação Jarvs S. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

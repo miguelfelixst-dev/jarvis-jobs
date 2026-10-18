@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17T22:24:03.376906+00:00",
-  "count": 1,
+  "updated_at": "2026-10-18T01:07:44.067625+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Automação de marketing com IA: agente que cria e publica conteúdo diário",
-      "description": "Automação de marketing com IA: agente que cria e publica conteúdo diário no Instagram e Facebook (n8n + Claude + HeyGen) Busco profissional para montar um pipeline automatizado de conteúdo para Instagram e Facebook. O objetivo é que, a partir de um briefing semanal escrito por mim, o sistema gere, renderize, publique e meça os posts sozinho, aprendendo com os resultados. O que precisa ser entregue: - Fluxo no n8n (nuvem) rodando diariamente: lê o briefing (Google Docs/Sheets) - gera legendas, roteiros e hipóteses de teste com Claude via API - produz Reels com avatar HeyGen e voz ElevenLabs - produz carrosséis e imagens em templates da marca (Creatomate ou Bannerbear) - publica no Instagram e Facebook via Ayrshare ou Meta Graph API. - Etapa de aprovação por WhatsApp: recebo os posts da semana e aprovo/reprovo com uma resposta. - Coleta diária de métricas (alcance, salvamentos, compartilha",
-      "url": "https://www.99freelas.com.br/project/automacao-de-marketing-com-ia-agente-que-cria-e-publica-conteudo-diario-792279?fs=t",
-      "date": null,
-      "tags": [
-        "automação"
-      ],
-      "score": 71,
-      "category": "Automações simples",
-      "meta": {
-        "competition": 14,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 14 Interessados: 14 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Adson J S. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

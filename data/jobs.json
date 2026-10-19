@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19T04:48:35.274816+00:00",
-  "count": 1,
+  "updated_at": "2026-10-19T10:50:44.307445+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,26 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Organizar planilhas Excel e pacote office",
-      "description": "Eu quero trabalhar com o pacote Office completo, ou coisas básicas meio período, jovem aprendiz...... Tem dúvidas? Faça uma pergunta . ou Enviar proposta Informações adicionais Categoria: Administração & Contabilidade Subcategoria: Outra - Administração & Contabilidade Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 1 Tempo restante: Valor Mínimo: R$ 50,00 Tem dúvidas? Faça uma pergunta . Faça uma pergunta ou Enviar proposta Informações adicionais Categoria: Administração & Contabilidade Subcategoria: Outra - Administração & Contabilidade Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 1 Tempo restante: Valor Mínimo: R$ 50,00",
-      "url": "https://www.99freelas.com.br/project/organizar-planilhas-excel-e-pacote-office-792469?fs=t",
-      "date": null,
-      "tags": [
-        "excel",
-        "planilha",
-        "planilhas"
-      ],
-      "score": 100,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 0,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 1 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Mudar empresa de São Paulo para Palmas - Preciso de um contador de São Paulo para mudar uma empresa de São Paulo para Palmas (Tocantins). Pelo que entendo, o protocolo deve ser feito presencialmente na JUCESP. Consultoria financeira presencial: conciliação e controles (São Paulo/SP) - Estamos buscando um(a) consultor(a) financeiro(a) com experiência prática em conciliação e organização financeira empresarial para atuação pre... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

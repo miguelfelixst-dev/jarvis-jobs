@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20T22:21:03.605184+00:00",
-  "count": 0,
+  "updated_at": "2026-10-21T01:39:02.439075+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Reformulação de e-commerce Nuvemshop: UX/UI, mobile e conversão",
+      "description": "Estamos buscando um profissional experiente em Nuvemshop, UX/UI, desenvolvimento de e-commerce e otimização de conversão (CRO) para reformular uma loja virtual em funcionamento. Somos uma empresa especializada em jalecos para professoras. Queremos preparar a loja para o crescimento das vendas, campanhas de tráfego pago e Black Friday. O objetivo é melhorar o visual, a velocidade, a confiabilidade e a facilidade de compra, principalmente no celular. O projeto inclui: - Diagnóstico de navegação, layout e conversão, com reformulação mobile-first, correção de elementos desalinhados, melhoria de menus, cabeçalho, rodapé, botões, tipografia, espaçamentos, banners, responsividade e usabilidade. - Aplicação da identidade visual azul, branca e dourada, com apresentação moderna, elegante e clean, organização de banners, vitrines, categorias, produtos em destaque, benefícios, pagamentos, entregas e",
+      "url": "https://www.99freelas.com.br/project/reformulacao-de-e-commerce-nuvemshop-ux-ui-mobile-e-conversao-793042?fs=t",
+      "date": null,
+      "tags": [
+        "conversão"
+      ],
+      "score": 65,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 14,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 14 Interessados: 15 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Felipe P. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

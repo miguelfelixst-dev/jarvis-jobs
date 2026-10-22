@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T18:35:16.703470+00:00",
-  "count": 0,
+  "updated_at": "2026-10-22T22:23:25.632007+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,27 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Suporte Administrativo Online - Digitação, Cadastros e Excel",
+      "description": "Você precisa de ajuda para organizar a rotina da sua empresa sem contratar funcionário fixo?Eu cuido da parte administrativa para você focar no que importa!? O QUE EU FAÇO: ? Digitação - Textos, formulários e documentos com rapidez e precisão. ? Cadastros - Cadastro de dados, clientes, fornecedores e sistemas com segurança. ? Excel - Planilhas, tabelas dinâmicas, relatórios e organização de dados. Arquivos anexados: Entre ou Cadastre-se para ver os arquivos anexados.",
+      "url": "https://www.99freelas.com.br/project/suporte-administrativo-online-digitacao-cadastros-e-excel-793549?fs=t",
+      "date": null,
+      "tags": [
+        "cadastro",
+        "digitação",
+        "organização de dados",
+        "cadastro de dados"
+      ],
+      "score": 100,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 1,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 1 Interessados: 4 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Vinicius C. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

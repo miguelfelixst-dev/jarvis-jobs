@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T18:24:58.215711+00:00",
-  "count": 0,
+  "updated_at": "2026-10-23T22:15:37.162255+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,26 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Design e social media para Instagram, Facebook e TikTok",
+      "description": "Estamos buscando um profissional freelancer ou PJ especializado em design gráfico, criação de conteúdo e mídias sociais para uma empresa do segmento de piscinas, produtos e equipamentos para piscinas. O objetivo é desenvolver conteúdos profissionais, atrativos e estratégicos para fortalecer a presença digital da marca, divulgar produtos e serviços, aumentar o engajamento e contribuir para a geração de novos clientes. **PRINCIPAIS REDES SOCIAIS** - Instagram - Facebook - TikTok **ATIVIDADES DE INTERESSE** **1. Design gráfico e criação de artes** - Desenvolvimento de posts para feed. - Criação de carrosséis informativos e comerciais. - Artes para Stories. - Criação de banners e materiais promocionais. - Divulgação de produtos, equipamentos, serviços e ofertas. - Adaptação dos materiais para os formatos de cada rede social. - Manutenção de uma identidade visual profissional e padronizada. *",
+      "url": "https://www.99freelas.com.br/project/design-e-social-media-para-instagram-facebook-e-tiktok-793784?fs=t",
+      "date": null,
+      "tags": [
+        "conversão",
+        "arquivo",
+        "arquivos"
+      ],
+      "score": 66,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 13,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 13 Interessados: 16 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (13) Todas Aceita Rejeitadas Aguardando avaliação Otávio Q. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

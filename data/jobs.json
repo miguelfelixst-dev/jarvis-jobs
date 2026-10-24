@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T14:36:30.998024+00:00",
-  "count": 0,
+  "updated_at": "2026-10-24T18:12:13.684216+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,47 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Criação de Dashboard Profissional no Power BI",
+      "description": "Desenvolvo dashboards no Power BI para transformar planilhas e bases de dados em relatórios visuais, organizados e fáceis de acompanhar. O serviço pode incluir: • Importação de dados de Excel ou CSV • Limpeza e tratamento dos dados • Modelagem das informações • Criação de indicadores e KPIs • Desenvolvimento de gráficos e visualizações • Filtros interativos por período, categoria ou unidade • Comparação de resultados entre períodos • Layout limpo e profissional • Entrega do arquivo Power BI (.pbix) • Uma rodada de ajustes após a primeira versão O projeto inicial contempla 1 página de dashboard, uma fonte de dados e até 5 indicadores principais. Antes do início, alinhamos quais informações e indicadores são mais importantes para o objetivo do painel. Integrações mais complexas, APIs, múltiplas fontes de dados ou páginas adicionais podem ser orçadas separadamente. Atividades do cliente nes",
+      "url": "https://www.99freelas.com.br/project/criacao-de-dashboard-profissional-no-power-bi-793905?fs=t",
+      "date": null,
+      "tags": [
+        "dashboard",
+        "excel",
+        "planilha",
+        "planilhas",
+        "csv",
+        "dashboards"
+      ],
+      "score": 100,
+      "category": "Excel e planilhas",
+      "meta": {
+        "competition": 2,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 2 Interessados: 3 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação Vinicius C. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Cadastro de produtos (Omie), criação de kits e publicação de anúncios",
+      "description": "Estamos em busca de um freelancer organizado, detalhista e comprometido para nos auxiliar na atualização de cadastro do nosso catálogo de produtos no ERP Omie e no gerenciamento de anúncios no Mercado Livre. O trabalho é 100% remoto, digital e com horário totalmente flexível, permitindo que você organize seu tempo como preferir, desde que cumpra os prazos e metas combinadas. Principais responsabilidades: ERP Omie: Atualização cadastral de produtos (preenchimento/revisão de NCM, peso, dimensões, preços, descrições e imagens). Criação, configuração e organização de kits/combos de produtos no sistema. Nós utilizamos uma interface do próprio sistema Omie para criação de anúncios em massa no Mercado Livre, então o trabalho no ML será: Revisão e otimização de anúncios. Vínculo e sincronização correta entre os anúncios do Mercado Livre e os produtos/kits do Omie. Requisitos e perfil desejado: E",
+      "url": "https://www.99freelas.com.br/project/cadastro-de-produtos-omie-criacao-de-kits-e-publicacao-de-anuncios-793906?fs=t",
+      "date": null,
+      "tags": [
+        "cadastro"
+      ],
+      "score": 84,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 2,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 2 Interessados: 3 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

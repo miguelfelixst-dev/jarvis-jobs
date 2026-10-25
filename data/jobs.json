@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T23:19:18.910085+00:00",
-  "count": 0,
+  "updated_at": "2026-10-25T04:49:45.911740+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,26 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Capa completa de livro impresso e e-book - suspense psicológico",
+      "description": "Capa Completa de Livro Impresso + E-book (Gênero: Suspense Psicológico) Descrição do Projeto Procuro um(a) designer editorial / capista experiente para o desenvolvimento da capa completa de um livro de suspense psicológico (versão impressa em formato 16x23 cm, incluindo frente, lombada, contracapa e orelhas), além da adaptação para e-book (Amazon KDP) e kits de divulgação para marketing. Escopo das Propostas Visuais (Fase Conceitual) Procuramos na fase inicial do concurso a apresentação de 3 propostas conceituais de capa frontal com abordagens visuais distintas: - Proposta 1 (Baseada em Referência): Inspirada na composição e linha visual de uma referência específica enviada no briefing. - Proposta 2 (Conceitual / Narrativa): Criada a partir dos temas centrais, premissa e atmosfera do livro. - Proposta 3 (Criação Autoral): Ideia 100% autoral, com total liberdade criativa do designer a par",
+      "url": "https://www.99freelas.com.br/project/capa-completa-de-livro-impresso-e-e-book-suspense-psicologico-793944?fs=t",
+      "date": null,
+      "tags": [
+        "pdf",
+        "arquivo",
+        "arquivos"
+      ],
+      "score": 76,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 4,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 4 Interessados: 7 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (4) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

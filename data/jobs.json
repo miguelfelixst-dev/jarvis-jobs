@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25T14:25:14.577328+00:00",
-  "count": 1,
+  "updated_at": "2026-10-25T18:25:57.420616+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Automação no Instagram para envio de material sobre autismo",
-      "description": "Olá! Tudo bem? Sou psicóloga e estou começando a divulgar meus materiais digitais na área de autismo. Preciso de um profissional para configurar uma automação simples no Instagram. Quero que, quando uma pessoa comentar a palavra CRISE em uma publicação ou Reel, receba automaticamente um PDF gratuito pelo Direct. Gostaria que o serviço incluísse: - Configuração do ManyChat. - Integração com meu Instagram. - Envio automático do material. - Testes de funcionamento. - Uma orientação para eu conseguir utilizar depois. Não preciso de gestão mensal de redes sociais neste momento, apenas da configuração inicial. Você realiza esse serviço? Qual seria o valor e o prazo de entrega? Habilidades desejadas: Marketing de Retenção de Clientes",
-      "url": "https://www.99freelas.com.br/project/automacao-no-instagram-para-envio-de-material-sobre-autismo-793952?fs=t",
-      "date": null,
-      "tags": [
-        "automação"
-      ],
-      "score": 71,
-      "category": "Automações simples",
-      "meta": {
-        "competition": 14,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 14 Interessados: 15 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

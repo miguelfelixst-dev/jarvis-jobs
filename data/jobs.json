@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T10:05:10.438419+00:00",
-  "count": 0,
+  "updated_at": "2026-10-29T16:57:27.472824+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Configurar integração do WhatsApp Business no Facebook",
+      "description": "Realizar a integração para criar e divulgar anúncios pelo WhatsApp Business com a página BM apta para esta finalidade no meu Facebook. Atividade rápida e pontual, apenas esta configuração está pendente! Habilidades desejadas: .NET para Web",
+      "url": "https://www.99freelas.com.br/project/configurar-integracao-do-whatsapp-business-no-facebook-794921?fs=t",
+      "date": null,
+      "tags": [
+        "ebook"
+      ],
+      "score": 66,
+      "category": "Produtos digitais",
+      "meta": {
+        "competition": 9,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 9 Interessados: 9 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (9) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

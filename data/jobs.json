@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T02:16:54.828675+00:00",
-  "count": 0,
+  "updated_at": "2026-11-01T09:25:02.482899+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Gestor de Tráfego Pago ( Facebook e Google )",
+      "description": "Preciso de um Gestor de Tráfego com experiência para um job de plantão AGORA (Domingo) Preciso de alguém para acessar o Gerenciador de Negócios (BM) de um cliente, revisar o que ficou travado e colocar a campanha no ar imediatamente. • Requisitos: Domínio de Meta Ads, agilidade e disponibilidade para entrar em call/resolver agora. • O que precisa fazer: Analisar o rascunho/campanha, corrigir possíveis erros de rejeição ou configuração e publicar. • Pagamento: Pix imediato assim que a campanha estiver ativa/em análise. ? Me chame no privado AGORA informando seu valor para esse plantão de emergência e seu nível de experiência. Habilidades desejadas: Facebook ADS Google ADS Instagram ADS",
+      "url": "https://www.99freelas.com.br/project/gestor-de-trafego-pago-facebook-e-google-795472?fs=t",
+      "date": null,
+      "tags": [
+        "ebook"
+      ],
+      "score": 76,
+      "category": "Produtos digitais",
+      "meta": {
+        "competition": 1,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 1 Interessados: 3 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Biel G. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

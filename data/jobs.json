@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T16:49:53.191988+00:00",
-  "count": 2,
+  "updated_at": "2026-11-01T21:13:04.745230+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,42 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Cadastro e otimização de anúncios em marketplaces",
-      "description": "Somos uma operação de e-commerce com modelo de dropshipping e estrutura de integração já em funcionamento. Buscamos um profissional (ou equipe) especializado em catálogo de produtos, SEO de anúncios e Ads das plataformas, com possibilidade de trabalho recorrente. ============================== NOSSO CENÁRIO ATUAL ============================== Catálogo - Mais de 1.500 produtos a serem catalogados no total - Cerca de 500 produtos já cadastrados no ERP Tiny (Olist) - Desses 500: cerca de 80% já publicados no Mercado Livre, 50% na Shopee e 100% no site próprio (WooCommerce) - Amazon em ampliação do catálogo - Interesse em expandir para novos marketplaces (Magalu, Americanas, TikTok Shop, Shein, entre outros) - Cerca de 1.000 produtos ainda precisam ser cadastrados do zero, a partir dos dados dos fornecedores Integrações já funcionando - APIs conectadas: Mercado Livre, Shopee, Amazon, WooCom",
-      "url": "https://www.99freelas.com.br/project/cadastro-e-otimizacao-de-anuncios-em-marketplaces-795514?fs=t",
-      "date": null,
-      "tags": [
-        "cadastro"
-      ],
-      "score": 84,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 3,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 3 Interessados: 4 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (3) Todas Aceita Rejeitadas Aguardando avaliação Julio C. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "AUTOMAÇÃO POOL DE LIQUIDEZ REDE SOLANA COM EMPRESTIMO",
-      "description": "Quero fazer uma automação da seguinte forma: o Bot abre uma pool na ORCA com range e valor programado, quando romper abaixo do range (depois de um tempo selecionado) ele fecha a pool pega o dinheiro coloca de emprestimo ma kamino, pega 50% (ou uma porcentagem selecionada) e refaz a pool na orca com esse valor, e vai fazendo isso automaticamente. quando romper pra cima ele fecha a pool resgata o valor do ultimo aporte na kamino soma com o que fechou da pool e abre a pool de novo na orca com esse valor. pode usar a carteira matamask ou rabby, tanto faz. Atividades do cliente nesse projeto: Última visualização: hoje às 13:08",
-      "url": "https://www.99freelas.com.br/project/automacao-pool-de-liquidez-rede-solana-com-emprestimo-795515?fs=t",
-      "date": null,
-      "tags": [
-        "automação"
-      ],
-      "score": 71,
-      "category": "Automações simples",
-      "meta": {
-        "competition": 15,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 15 Interessados: 16 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (15) Todas Aceita Rejeitadas Aguardando avaliação Alexandre L. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T01:37:36.995342+00:00",
-  "count": 1,
+  "updated_at": "2026-11-03T09:38:27.535978+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,25 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Arte para banner 1 m x 2 m - seguindo template já definido",
-      "description": "Designer gráfico - arte para banner Busco designer freelancer para criação de 1 arte para banner no formato 1 x 2 metros. O template da campanha de Natal já está definido, assim como paleta de cores, logotipo e tipografia. O profissional deverá seguir o layout e as orientações fornecidas pela agência. Na proposta, informar: - Valor do serviço; - Prazo de entrega; - Portfólio de trabalhos. Entrega: arquivo final em alta resolução, preparado para impressão, preferencialmente em PDF fechado e com as especificações técnicas adequadas à gráfica. Habilidades desejadas: Adobe Illustrator Adobe Photoshop",
-      "url": "https://www.99freelas.com.br/project/arte-para-banner-1-m-x-2-m-seguindo-template-ja-definido-795766?fs=t",
-      "date": null,
-      "tags": [
-        "pdf",
-        "arquivo"
-      ],
-      "score": 61,
-      "category": "Conversão de arquivos",
-      "meta": {
-        "competition": 14,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 14 Interessados: 17 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T00:21:06.152473+00:00",
-  "count": 0,
+  "updated_at": "2026-11-06T07:57:46.040281+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,42 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Vendas e suporte digitação",
+      "description": "Vendas divulgação suporte técnico Atendimento ao público,digitação rápida e eficiente garantindo qualidade e rapidez para o cliente Habilidades desejadas: .NET Framework .NET para Web A-GPS Administração Administração de Redes",
+      "url": "https://www.99freelas.com.br/project/vendas-e-suporte-digitacao-796734?fs=t",
+      "date": null,
+      "tags": [
+        "digitação"
+      ],
+      "score": 84,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 0,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 1 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Mineração de produtos para marketplace - Sobre a oportunidade Empresa atuante no e-commerce busca Analista de Mineração de Produtos para identificar oportunidades de alto potencial no marketplace Amazon.com.br. A posi&ccedi... Pesquisa de problemas reais em empresas e oportunidades tecnológicas - Procuro um profissional para pesquisar problemas reais enfrentados por empresas de diferentes setores no Brasil, que possam ser resolvidos ou reduzidos com tecnologia. Meu objetivo é encont... Pesquisa e mapeamento de potenciais clientes para palestras e treinamentos - Procuro profissional para realizar um trabalho de pesquisa e mapeamento de potenciais clientes interessados em palestras, treinamentos e ações educativas nas áreas de neurodive... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Apresentação PDF para transportadora de cargas",
+      "description": "Criar uma apresentação institucional para a empresa, em PDF, no formato ótimo para impressão. Preferência para quem já fez no ramo de transporte de carga e logística. Tem dúvidas? Faça uma pergunta . ou Enviar proposta Informações adicionais Categoria: Design & Criação Subcategoria: Apresentação Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 10 Interessados: 15 Tempo restante: Valor Mínimo: R$ 50,00 Tem dúvidas? Faça uma pergunta . Faça uma pergunta ou Enviar proposta Informações adicionais Categoria: Design & Criação Subcategoria: Apresentação Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 10 Interessados: 15 Tempo restante: Valor Mínimo: R$ 50,00",
+      "url": "https://www.99freelas.com.br/project/apresentacao-pdf-para-transportadora-de-cargas-796721?fs=t",
+      "date": null,
+      "tags": [
+        "pdf"
+      ],
+      "score": 70,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 10,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 10 Interessados: 15 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (10) Todas Aceita Rejeitadas Aguardando avaliação Mário A. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

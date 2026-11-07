@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T15:42:36.758401+00:00",
-  "count": 0,
+  "updated_at": "2026-11-07T20:15:47.941564+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Revisão e edição de textos para e-book",
+      "description": "Estou procurando um profissional para realizar a revisão e edição de um e-book com aproximadamente 40 páginas. O material já está escrito, mas precisa passar por uma revisão cuidadosa para corrigir erros ortográficos, gramaticais e de pontuação, além de melhorar a clareza e a fluidez da leitura. O que precisa ser feito: - Correção de erros ortográficos e gramaticais. - Ajustes de pontuação e concordância. - Melhoria na construção de frases e parágrafos. - Padronização de títulos e subtítulos. - Revisão geral para garantir uma leitura natural e profissional. Requisitos: - Boa escrita em português brasileiro. - Atenção aos detalhes. - Compromisso com prazos. - Experiência com edição e revisão de textos será um diferencial. Entrega: Documento revisado e editado em formato Word (.docx), mantendo a organização original do conteúdo. Habilidades desejadas: Edição Edição de Textos Revisão De Tex",
+      "url": "https://www.99freelas.com.br/project/revisao-e-edicao-de-textos-para-e-book-797086?fs=t",
+      "date": null,
+      "tags": [
+        "e-book"
+      ],
+      "score": 61,
+      "category": "Produtos digitais",
+      "meta": {
+        "competition": 13,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 13 Interessados: 17 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (13) Todas Aceita Rejeitadas Aguardando avaliação Bethânia C. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

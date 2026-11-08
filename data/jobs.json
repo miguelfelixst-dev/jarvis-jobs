@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T06:10:37.887450+00:00",
-  "count": 0,
+  "updated_at": "2026-11-08T13:32:38.599802+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,25 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Cadastro de produtos e digitação de documentos",
+      "description": "Criado para apresentar minhas habilidades em organização, cálculos e formatação. Não se trata de um trabalho real para um cliente. Habilidades desejadas: Administração Excel Organização Word",
+      "url": "https://www.99freelas.com.br/project/cadastro-de-produtos-e-digitacao-de-documentos-797179?fs=t",
+      "date": null,
+      "tags": [
+        "cadastro",
+        "digitação"
+      ],
+      "score": 98,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 0,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 0 Interessados: 1 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Cadastro de produtos e digitação - Preciso de um freelancer para ajudar na digitação de documentos, organização de arquivos no Google Drive e alimentação de planilhas simples. O trabalho &ea... Cadastrar produtos no Mercado Livre e na Shopee - Olá, prazer, me chamo Cyro. Estou começando a vender canetas de retoque automotivo e, além do meu Instagram, preciso vender no Mercado Livre e na Shopee, porém nunca ven... Entrada de dados em planilha de Excel - Procuro um freelancer para realizar a digitação e organização de informações simples em uma planilha de Excel. O trabalho consiste em copiar dados de docum... Cadastro de produtos em marketplaces e Olist - Preciso de um freela para realizar cadastro de produtos em alguns marketplaces para empresas diferentes. Será necessário pesquisar pelo EAN do produto, buscar a foto e cadastrar nos l... Cadastro de produtos (Omie), criação de kits e publicação de anúncios - Estamos em busca de um freelancer organizado, detalhista e comprometido para nos auxiliar na atualização de cadastro do nosso catálogo de produtos no ERP Omie e no gerenciament... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T18:51:24.510897+00:00",
-  "count": 1,
+  "updated_at": "2026-11-08T22:55:37.057236+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Vídeo criativo para instagram/facebook/youtube",
-      "description": "Olá, pessoal! Tudo bem? Preciso de um vídeo criativo para divulgá-lo sobre meu negócio e impulsionar tráfego pago. Segue um resumo para contexto: Gostaria de apresentar a vocês o Agenda365, uma plataforma de agendamentos online desenvolvida para facilitar a rotina de profissionais e estabelecimentos que trabalham com horários marcados. Com o Agenda365, é possível organizar agendamentos, disponibilizar horários e facilitar o atendimento aos clientes, tudo de forma simples e prática. ? https://agenda365.app.br/ Obrigado pela atenção! Habilidades desejadas: Criativo Design Criativo Locução Produção de Video",
-      "url": "https://www.99freelas.com.br/project/video-criativo-para-instagram-facebook-youtube-797216?fs=t",
-      "date": null,
-      "tags": [
-        "ebook"
-      ],
-      "score": 76,
-      "category": "Produtos digitais",
-      "meta": {
-        "competition": 1,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 1 Interessados: 1 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

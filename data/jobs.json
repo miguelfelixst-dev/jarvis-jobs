@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T22:55:37.057236+00:00",
-  "count": 0,
+  "updated_at": "2026-11-09T02:42:10.955371+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,25 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Planilhas e organização de informações",
+      "description": "Precisa organizar suas informações, mas não sabe como fazer isso em uma planilha? Ofereço serviços de criação, edição e organização de planilhas diretamente pelo computador. Serviços oferecidos: Criação de planilhas personalizadas. Organização de dados e informações. Edição e formatação de planilhas existentes. Criação de tabelas e controles financeiros. Planilhas para controle de gastos e despesas. Organização de listas, cadastros e registros. Aplicação de fórmulas e cálculos básicos. Conversão e organização de informações. Como funciona? Você me explica o que precisa, envia os arquivos ou informações e eu realizo o serviço digitalmente. Atendimento totalmente online! Entre em contato para solicitar um orçamento sem compromisso. Arquivos anexados: Entre ou Cadastre-se para ver os arquivos anexados.",
+      "url": "https://www.99freelas.com.br/project/planilhas-e-organizacao-de-informacoes-797279?fs=t",
+      "date": null,
+      "tags": [
+        "planilha",
+        "planilhas"
+      ],
+      "score": 96,
+      "category": "Excel e planilhas",
+      "meta": {
+        "competition": 1,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 1 Interessados: 1 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Vinicius C. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

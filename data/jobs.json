@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T16:14:30.488541+00:00",
-  "count": 1,
+  "updated_at": "2026-11-11T22:47:26.150793+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Transformar em arquivo editavel",
-      "description": "Boa tarde!! Preciso transformar um arquivo em versão totalmente editável, mantendo com Fidelidade: A mesma estética visual Estrutura original Alinhamentos Espaçamentos Tipografia e formatação O resultado precisa ficar idêntico ao original, só que 100% editável. Prazo: 1 dia. Atividades do cliente nesse projeto: Última visualização: hoje às 13:03",
-      "url": "https://www.99freelas.com.br/project/transformar-em-arquivo-editavel-797901?fs=t",
-      "date": null,
-      "tags": [
-        "arquivo"
-      ],
-      "score": 80,
-      "category": "Conversão de arquivos",
-      "meta": {
-        "competition": 3,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 3 Interessados: 4 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (3) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T03:51:46.028428+00:00",
-  "count": 0,
+  "updated_at": "2026-11-12T12:49:39.041597+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Cadastro da empresa como fornecedora em 10 empresas",
+      "description": "Nossa empresa trabalha junto a alguns setores em que a porta de entrada para sermos fornecedores destas empresas é o cadastramento. Em algumas delas, este processo é feito através dos sites corporativos. Em outras, é necessário entrar em contato com a área de compras e seguir procedimentos pré-estabelecidos. Estou buscando freelas com experiência para efetivar o cadastro em 10 destas empresas. Habilidades desejadas: Assistente Virtual",
+      "url": "https://www.99freelas.com.br/project/cadastro-da-empresa-como-fornecedora-em-10-empresas-798129?fs=t",
+      "date": null,
+      "tags": [
+        "cadastro"
+      ],
+      "score": 74,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 8,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 8 Interessados: 13 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (8) Todas Aceita Rejeitadas Aguardando avaliação Ramon L. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

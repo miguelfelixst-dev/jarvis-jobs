@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T23:37:54.594647+00:00",
-  "count": 0,
+  "updated_at": "2026-11-14T06:33:55.855770+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Prospecção para venda de site/sistema/automação",
+      "description": "Procuro pessoas para a frente comercial de um serviço de criação de sites e landing pages para empresas e profissionais de qualquer segmento em São Paulo e região, Rio de Janeiro e Região, Brasilia e região, Goiânia e região, Palmas e região, em termos todas as capitais e regiões do Brasil: clínicas, consultórios, escritórios, comércios, restaurantes e prestadores de serviço. O foco inicial são clínicas, mas qualquer negócio pode ser abordado. O que você vai fazer - Mapear empresas com potencial, principalmente as que já anunciam ou têm presença na internet, mas têm um site fraco ou desatualizado. - Fazer as abordagens e apresentar os serviços e os projetos demonstrativos. - Acompanhar as negociações e conduzir os fechamentos, dentro das condições combinadas. - Registrar empresas, contatos e negociações na planilha da equipe. O que você recebe - Guia comercial com o passo a passo da vend",
+      "url": "https://www.99freelas.com.br/project/prospeccao-para-venda-de-site-sistema-automacao-798535?fs=t",
+      "date": null,
+      "tags": [
+        "automação"
+      ],
+      "score": 86,
+      "category": "Automações simples",
+      "meta": {
+        "competition": 0,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas BDR",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

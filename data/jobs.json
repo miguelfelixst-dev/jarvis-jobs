@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T17:47:04.655270+00:00",
-  "count": 1,
+  "updated_at": "2026-11-15T22:53:55.151531+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Pesquisa online e por telefone em lojas de material de construção - AL/BA",
-      "description": "Sobre o projeto Pesquisa de mercado confidencial. Procuramos uma pessoa de Pernambuco ou da Bahia, de preferência do Sertão, para pedir orçamentos a lojas de material de construção sem sair de casa, por WhatsApp, telefone, Instagram e site. A pessoa age como um cliente comum que está com uma obra, sem dizer que é uma pesquisa e sem comprar nada. Onde São 10 lojas em Delmiro Gouveia (AL), Piranhas (AL) e Paulo Afonso (BA). Os nomes e os contatos vão só para a pessoa contratada. O que fazer em cada loja - Pedir orçamento de uma lista de cerca de 50 itens comuns de obra (cimento, argamassa, aço, telhas, tubos, fios, pisos, tintas, MDF etc.), com marca, medida e embalagem. - Anotar o preço à vista, o parcelado e o preço para quantidade de obra (ex.: 50 sacos de cimento). - Perguntar a taxa e o prazo de entrega, o pedido mínimo para frete grátis, o desconto no PIX, as parcelas no cartão e se ",
-      "url": "https://www.99freelas.com.br/project/pesquisa-online-e-por-telefone-em-lojas-de-material-de-construcao-al-ba-798747?fs=t",
-      "date": null,
-      "tags": [
-        "pesquisa online"
-      ],
-      "score": 84,
-      "category": "Extração e organização de dados",
-      "meta": {
-        "competition": 0,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 0 Interessados: 2 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Mineração de produtos para marketplace - Sobre a oportunidade Empresa atuante no e-commerce busca Analista de Mineração de Produtos para identificar oportunidades de alto potencial no marketplace Amazon.com.br. A posi&ccedi... Pesquisa de problemas reais em empresas e oportunidades tecnológicas - Procuro um profissional para pesquisar problemas reais enfrentados por empresas de diferentes setores no Brasil, que possam ser resolvidos ou reduzidos com tecnologia. Meu objetivo é encont... Pesquisa e mapeamento de potenciais clientes para palestras e treinamentos - Procuro profissional para realizar um trabalho de pesquisa e mapeamento de potenciais clientes interessados em palestras, treinamentos e ações educativas nas áreas de neurodive... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

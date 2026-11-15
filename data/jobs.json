@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14T23:03:10.691205+00:00",
-  "count": 1,
+  "updated_at": "2026-11-15T02:44:39.363066+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -32,6 +32,24 @@
         "competition": 1,
         "competition_label": "propostas",
         "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 1 Interessados: 2 Tempo restante: Valor Mínimo: R$ 70,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Mario A. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Excelência no Atendimento",
+      "description": "O trabalho consiste em oferecer um atendimento de qualidade aos consumidores, ouvindo suas dúvidas, sugestões e reclamações, buscando soluções de forma educada, rápida e eficiente. O objetivo é garantir a satisfação dos clientes, melhorar a comunicação e proporcionar uma boa experiência no atendimento. Habilidades desejadas: Administração",
+      "url": "https://www.99freelas.com.br/project/excelencia-no-atendimento-798668?fs=t",
+      "date": null,
+      "tags": [
+        "excel"
+      ],
+      "score": 82,
+      "category": "Excel e planilhas",
+      "meta": {
+        "competition": 2,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 2 Interessados: 3 Tempo restante: Valor Mínimo: R$ 100,00 Propostas (2) Todas Aceita Rejeitadas Aguardando avaliação Samia B. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
         "status": "Aberto"
       }
     }

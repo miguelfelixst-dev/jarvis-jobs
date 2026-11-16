@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T02:47:52.746724+00:00",
-  "count": 1,
+  "updated_at": "2026-11-16T11:33:15.943976+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Estratégia de marketing para lançamento e precificação de produto digital",
-      "description": "Olá! Sou nutricionista esportiva e integrativa, com 8 anos de experiência de mercado. Já possuo uma base consolidada e estou estruturando um novo produto digital de alto valor. Estou em busca de um(a) Estrategista de Marketing Digital com foco em performance e estratégia comercial para estruturar e planejar este novo lançamento comigo do zero. O escopo do projeto: - Precificação estratégica: ajudar a definir os modelos de preço e pacotes de forma que fiquem altamente competitivos e atrativos para o mercado atual. - Estruturação completa do funil de vendas e tráfego pago. - Definição e execução da estratégia de posicionamento, conversão e escala digital. Se você tem experiência com lançamentos, tráfego pago e inteligência de preços, envie sua proposta detalhando seus cases de sucesso e sua proposta de valor para realizarmos este projeto! Tem dúvidas? Faça uma pergunta . ou Enviar proposta",
-      "url": "https://www.99freelas.com.br/project/estrategia-de-marketing-para-lancamento-e-precificacao-de-produto-digital-798807?fs=t",
-      "date": null,
-      "tags": [
-        "produto digital"
-      ],
-      "score": 66,
-      "category": "Produtos digitais",
-      "meta": {
-        "competition": 8,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 8 Interessados: 11 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (8) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

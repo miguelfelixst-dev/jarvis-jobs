@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17T04:33:23.301430+00:00",
-  "count": 0,
+  "updated_at": "2026-11-17T14:31:59.277612+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,42 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Copywriter de iGaming para funil de conversão e FTD",
+      "description": "Estamos à procura de um copywriter brasileiro com experiência em iGaming e criação de funis de conversão pelo WhatsApp. Atuamos como afiliados no mercado português e utilizamos o Kommo CRM para gerir os leads, com chatbots e atendimento manual. **O que precisamos:** - Criar scripts de conversação para chatbots e atendentes. - Estruturar o fluxo de mensagens e abordagens comerciais. - Desenvolver mensagens de follow-up e recuperação de leads. - Melhorar a conversão dos leads em FTDs (primeiro depósito). - Adaptar a comunicação ao público português (PT-PT). **Importante:** já temos a estrutura técnica, o CRM e os atendentes. Precisamos apenas da estratégia de comunicação e dos scripts, sem necessidade de configurar o Kommo. Procuramos alguém com experiência prática em iGaming ou funis de conversão pelo WhatsApp. Na proposta, informe a sua experiência, trabalhos anteriores e valores. Habili",
+      "url": "https://www.99freelas.com.br/project/copywriter-de-igaming-para-funil-de-conversao-e-ftd-799186?fs=t",
+      "date": null,
+      "tags": [
+        "conversão"
+      ],
+      "score": 80,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 1,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 1 Interessados: 2 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (1) Todas Aceita Rejeitadas Aguardando avaliação Vinicius C. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Estruturar loja Shopee, layout e cadastro de biquínis",
+      "description": "Procuro um especialista em Shopee para estruturar minha loja (já criada) e deixar tudo pronto para vender. Preciso de alguém que faça: - Layout, identidade visual (banners e vitrine) e configurações gerais da loja. - Cadastro dos produtos (modelos de biquínis com variações de tamanhos e cores). - Otimização de SEO (títulos e descrições que vendem) e configuração para impulsionar os anúncios. Já abri a loja e subi 1 produto de teste, agora preciso profissionalizar tudo. Envie o valor fechado e exemplos de lojas que você já montou. Atividades do cliente nesse projeto: Última visualização: hoje às 11:14",
+      "url": "https://www.99freelas.com.br/project/estruturar-loja-shopee-layout-e-cadastro-de-biquinis-799185?fs=t",
+      "date": null,
+      "tags": [
+        "cadastro"
+      ],
+      "score": 69,
+      "category": "Extração e organização de dados",
+      "meta": {
+        "competition": 14,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 14 Interessados: 17 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

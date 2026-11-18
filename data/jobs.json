@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-18T04:29:01.686927+00:00",
-  "count": 0,
+  "updated_at": "2026-11-18T14:07:56.537182+00:00",
+  "count": 2,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,42 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Revisão completa de livro em arquivo word",
+      "description": "Revisar e realizar correções ortográficas, gramaticais, de concordância, regência e pontuação, além de ajustes de fluidez e uniformização textual. Extensão: 248 laudas. Tem dúvidas? Faça uma pergunta . ou Enviar proposta Informações adicionais Categoria: Escrita Subcategoria: Edição & Revisão Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 9 Interessados: 10 Tempo restante: Valor Mínimo: R$ 30,00 Tem dúvidas? Faça uma pergunta . Faça uma pergunta ou Enviar proposta Informações adicionais Categoria: Escrita Subcategoria: Edição & Revisão Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 9 Interessados: 10 Tempo restante: Valor Mínimo: R$ 30,00",
+      "url": "https://www.99freelas.com.br/project/revisao-completa-de-livro-em-arquivo-word-799444?fs=t",
+      "date": null,
+      "tags": [
+        "arquivo"
+      ],
+      "score": 70,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 9,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 9 Interessados: 10 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (9) Todas Aceita Rejeitadas Aguardando avaliação Bruno A. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    },
+    {
+      "source": "99Freelas",
+      "title": "Calendário semanal interativo em PDF",
+      "description": "Preciso de um calendário que me dê suporte no meu trabalho: agendamentos, demandas... Estou em busca de um PDF interativo semanal com os horários de cada dia. Habilidades desejadas: Design Criativo Design de Papelaria",
+      "url": "https://www.99freelas.com.br/project/calendario-semanal-interativo-em-pdf-799440?fs=t",
+      "date": null,
+      "tags": [
+        "pdf"
+      ],
+      "score": 65,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 14,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 14 Interessados: 17 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (14) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

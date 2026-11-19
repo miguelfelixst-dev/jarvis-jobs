@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T03:35:24.045485+00:00",
-  "count": 0,
+  "updated_at": "2026-11-19T13:20:08.315555+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,25 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Preenchimento de memorial descritivo online com envio de PDF e código",
+      "description": "Olá! Estamos com uma demanda pontual, simples e de rápida execução para a Elementar Projetos Legais. Atividades: - Coletar as informações necessárias ao preenchimento do Memorial Descritivo a partir do projeto fornecido em DWG/DWF. - Inserir os dados no sistema/site indicado, aplicando pequenas alterações pontuais no texto conforme as orientações fornecidas. - Salvar e gerar o novo documento final. Entregáveis Obrigatórios: - Arquivo final gerado em PDF. - Código de recuperação do preenchimento no sistema. Requisitos: - Familiaridade com leitura de projetos em DWG/DWF. - Atenção aos detalhes para evitar divergências entre o projeto e o memorial. - Disponibilidade para execução e entrega rápida. Atividades do cliente nesse projeto: Última visualização: hoje às 10:14",
+      "url": "https://www.99freelas.com.br/project/preenchimento-de-memorial-descritivo-online-com-envio-de-pdf-e-codigo-799668?fs=t",
+      "date": null,
+      "tags": [
+        "pdf",
+        "arquivo"
+      ],
+      "score": 70,
+      "category": "Conversão de arquivos",
+      "meta": {
+        "competition": 11,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 11 Interessados: 15 Tempo restante: Valor Mínimo: R$ 70,00 Propostas (11) Todas Aceita Rejeitadas Aguardando avaliação Francisco do N. Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T13:00:11.941439+00:00",
-  "count": 1,
+  "updated_at": "2026-11-20T21:11:47.082871+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,27 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Auxilio em planilhas, IA e documentação",
-      "description": "Serviços: Criação e organização de planilhas em Excel e Google Sheets, com fórmulas, tabelas dinâmicas e controles personalizados. Painéis e relatórios em Power BI. Uso de IA para ganhar produtividade: elaboração de textos, resumos, análises e automação de tarefas repetitivas. Redação, revisão e formatação de documentos formais, como relatórios executivos, apresentações e manuais. Padronização de processos e documentação para equipes e empresas. Como trabalho: Entendo sua necessidade, proponho a melhor solução e entrego com prazo combinado. Comunicação objetiva, atenção aos detalhes e confidencialidade nas informações compartilhadas. Para começar, descreva o que você precisa e envie um exemplo do material, se tiver. Respondo rapidamente com uma proposta. Habilidades desejadas: Excel Google Sheets Planejamento Power BI",
-      "url": "https://www.99freelas.com.br/project/auxilio-em-planilhas-ia-e-documentacao-799879?fs=t",
-      "date": null,
-      "tags": [
-        "planilha",
-        "planilhas",
-        "excel",
-        "google sheets"
-      ],
-      "score": 100,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 0,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Produção e operacionalização de eventos internos - Preciso de um profissional que operacionalize a parte de eventos internos, fazendo principalmente atividades de follow-up e controle de datas. Basicamente, as atividades serão receber o manu... Implantação e gestão operacional de startup - PROJETO: Estruturação e Implantação Operacional de Startup de Tecnologia - iService Categoria: Gestão de Projetos / Consultoria Empresarial Modalidade: 100% remo... Coordenação operacional de projetos de software e automação - Somos uma empresa de software, automação e inteligência artificial, com equipe interna de desenvolvimento e projetos de clientes em andamento. Precisamos de um profissional expe... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

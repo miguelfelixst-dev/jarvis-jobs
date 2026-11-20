@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T22:12:23.458557+00:00",
-  "count": 2,
+  "updated_at": "2026-11-20T03:25:30.590788+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,44 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "E-books ilustrados de arcanos e magia natural",
-      "description": "Estou buscando um profissional criativo e com habilidades multilíngues para desenvolver dois ebooks abrangentes e visualmente atraentes sobre cartas de Tarot. O primeiro ebook será dedicado aos Arcanos Maiores. Cada ebook deverá incluir: - Ilustrações originais para cada carta, criadas pelo profissional. - Explicações detalhadas do significado de cada carta nos baralhos de Tarot mais conhecidos. - Informações sobre como as cartas podem ser utilizadas em diversas áreas da vida. É fundamental que a pesquisa seja aprofundada, utilizando fontes em diferentes idiomas além do português, e que a tradução e adaptação garantam que as informações apresentadas no PDF correspondam perfeitamente às fontes pesquisadas. A estrutura dos ebooks será dividida em capítulos, onde cada capítulo terá uma capa ilustrada com a carta específica em foco, além de ilustrações adicionais que representem a carta em d",
-      "url": "https://www.99freelas.com.br/project/e-books-ilustrados-de-arcanos-e-magia-natural-799800?fs=t",
-      "date": null,
-      "tags": [
-        "e-book",
-        "ebook"
-      ],
-      "score": 76,
-      "category": "Produtos digitais",
-      "meta": {
-        "competition": 5,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 5 Interessados: 6 Tempo restante: Valor Mínimo: R$ 50,00 Propostas (5) Todas Aceita Rejeitadas Aguardando avaliação Filipe A. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    },
-    {
-      "source": "99Freelas",
-      "title": "Desenvolvimento de planilha de estatística descritiva no Excel",
-      "description": "Olá! Sou o Allysson Dimitre e preciso de ajuda para desenvolver uma planilha no Microsoft Excel (.xlsx) voltada ao cálculo de estatística descritiva a partir de uma base de dados. Vou anexar a base de dados original, com 750 registros de participantes de um evento, analisando a variável quantitativa experiência (nota de 0 a 10), com 750 registros válidos. A planilha precisa ser construída do zero, de forma 100% manual no Excel, sem uso de inteligência artificial em nenhuma etapa. Prazo de entrega: amanhã (20/11), até às 18h. Formato obrigatório do entregável: arquivo editável do Microsoft Excel (.xlsx), com todas as fórmulas nativas ativas e visíveis nas células. Estrutura esperada da planilha em 6 abas: - Aba 1 - Identificação: informações da variável quantitativa escolhida e dados de identificação do projeto. - Aba 2 - Dados: dados originais da variável selecionada preservados em colun",
-      "url": "https://www.99freelas.com.br/project/desenvolvimento-de-planilha-de-estatistica-descritiva-no-excel-799802?fs=t",
-      "date": null,
-      "tags": [
-        "excel",
-        "planilha"
-      ],
-      "score": 86,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 9,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 9 Interessados: 12 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (9) Todas Aceita Rejeitadas Aguardando avaliação Maisa R. Top Freelancer Plus Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

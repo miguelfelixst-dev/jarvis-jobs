@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-21T23:24:46.526263+00:00",
-  "count": 0,
+  "updated_at": "2026-11-22T06:58:04.864154+00:00",
+  "count": 1,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,5 +16,24 @@
       "GetNinjas"
     ]
   },
-  "jobs": []
+  "jobs": [
+    {
+      "source": "99Freelas",
+      "title": "Planilha de cálculo de votos para eleição de vereador - 2024",
+      "description": "A planilha deverá somar automaticamente os votos, informar o quociente eleitoral e o número de vagas que cada partido terá direito, respeitando todas as regras vigentes de 2024. Atividades do cliente nesse projeto: Última visualização: hoje às 01:25",
+      "url": "https://www.99freelas.com.br/project/planilha-de-calculo-de-votos-para-eleicao-de-vereador-2024-800139?fs=t",
+      "date": null,
+      "tags": [
+        "planilha"
+      ],
+      "score": 77,
+      "category": "Excel e planilhas",
+      "meta": {
+        "competition": 7,
+        "competition_label": "propostas",
+        "budget": "Orçamento: Aberto Nível de experiência: Iniciante Visibilidade: Público Propostas: 7 Interessados: 9 Tempo restante: Valor Mínimo: R$ 30,00 Propostas (7) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
+        "status": "Aberto"
+      }
+    }
+  ]
 }

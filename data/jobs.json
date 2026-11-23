@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-23T02:51:42.833257+00:00",
-  "count": 1,
+  "updated_at": "2026-11-23T12:58:31.415947+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,24 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Automatizar os anúncios de serviços",
-      "description": "Estou iniciando um novo projeto de serviços e preciso de um profissional que desenhe toda a estrutura de IA para fazer meus anúncios rodarem em todos os lugares de forma automática, através da automatização do WhatsApp nos primeiros contatos. NR8 Preciso de alguém que conheça o processo de funil de vendas para divulgação de um serviço, para arquitetar e lançar. Atividades do cliente nesse projeto: Última visualização: hoje às 23:11",
-      "url": "https://www.99freelas.com.br/project/automatizar-os-anuncios-de-servicos-800290?fs=t",
-      "date": null,
-      "tags": [
-        "automatizar"
-      ],
-      "score": 71,
-      "category": "Automações simples",
-      "meta": {
-        "competition": 11,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Especialista Visibilidade: Público Propostas: 11 Interessados: 14 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (11) Todas Aceita Rejeitadas Aguardando avaliação Thiago B. Talent Freelancer novo Promovida Aceita Aceita Rejeitada Submetido:",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T15:41:46.253859+00:00",
-  "count": 1,
+  "updated_at": "2026-11-26T00:27:29.486562+00:00",
+  "count": 0,
   "errors": [],
   "rules": {
     "languages": [
@@ -16,26 +16,5 @@
       "GetNinjas"
     ]
   },
-  "jobs": [
-    {
-      "source": "99Freelas",
-      "title": "Mineração de 10 Produtos de Nicho para E-commerce com Entrega em Dashboard",
-      "description": "Olá! Procuro um profissional com experiência em mineração e validação de produtos para e-commerce e importação. A Tese do Projeto (Nosso Diferencial): Identificar produtos nichados que brasileiros comprovadamente já compram de fora (AliExpress/China), para fornecermos esses itens com estoque local no Brasil (Full/Envio Imediato) ou a um preço mais competitivo. O cliente brasileiro odeia esperar 20 a 30 dias. Produtos com histórico de compra internacional por brasileiros e com poucos ou NENHUM vendedor com estoque local no Brasil são o cenário perfeito. Objetivo: Entregar um relatório em arquivo .html (dashboard visual, moderno e minimalista) contendo 10 produtos viáveis, cumprindo as diretrizes abaixo. Onde pesquisar: Fontes na China (Custo / Demanda): AliExpress, 1688, Alibaba, Taobao, Made-in-China, etc. Fontes no Brasil (Concorrência / Preço): Mercado Livre, Shopee Brasil, Amazon Bras",
-      "url": "https://www.99freelas.com.br/project/mineracao-de-10-produtos-de-nicho-para-e-commerce-com-entrega-em-dashboard-801003?fs=t",
-      "date": null,
-      "tags": [
-        "dashboard",
-        "excel",
-        "planilha"
-      ],
-      "score": 92,
-      "category": "Excel e planilhas",
-      "meta": {
-        "competition": 0,
-        "competition_label": "propostas",
-        "budget": "Orçamento: Aberto Nível de experiência: Intermediário Visibilidade: Público Propostas: 0 Interessados: 0 Tempo restante: Valor Mínimo: R$ 60,00 Propostas (0) Todas Aceita Rejeitadas Aguardando avaliação Nenhuma proposta foi encontrada. Projetos semelhantes no 99Freelas Pesquisa de mercado no Alibaba e análise de importação - Olá, Estou avaliando importar um item da China. A tarefa se resume em pesquisar para mim fornecedores do produto, entrar em contato por WhatsApp, verificar se têm site/catálog... Pesquisa de satisfação de clientes para multinacional - Busca-se um profissional qualificado para realizar pesquisa de campo e conduzir entrevistas com clientes de uma multinacional. O objetivo principal é coletar dados para uma pesquisa de satis... Pesquisa online e por telefone em lojas de material de construção - AL/BA - Sobre o projeto Pesquisa de mercado confidencial. Procuramos uma pessoa de Pernambuco ou da Bahia, de preferência do Sertão, para pedir orçamentos a lojas de material de constru... Mineração de produtos para marketplace - Sobre a oportunidade Empresa atuante no e-commerce busca Analista de Mineração de Produtos para identificar oportunidades de alto potencial no marketplace Amazon.com.br. A posi&ccedi... Pesquisa de problemas reais em empresas e oportunidades tecnológicas - Procuro um profissional para pesquisar problemas reais enfrentados por empresas de diferentes setores no Brasil, que possam ser resolvidos ou reduzidos com tecnologia. Meu objetivo é encont... @2014-2026 99Freelas. Todos os direitos reservados. Termos de uso",
-        "status": "Aberto"
-      }
-    }
-  ]
+  "jobs": []
 }
